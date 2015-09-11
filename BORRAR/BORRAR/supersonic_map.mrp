@@ -1,0 +1,225 @@
+Release 8.2.02i Map I.33
+Xilinx Mapping Report File for Design 'supersonic'
+
+Design Information
+------------------
+Command Line   : D:\Xilinx\bin\nt\map.exe -ise C:/Documents and
+Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise -intstyle ise -p
+xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd
+supersonic.pcf 
+Target Device  : xc3s1000
+Target Package : ft256
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.34.32.1 $
+Mapped Date    : Wed Feb 21 15:32:50 2007
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    3
+Logic Utilization:
+  Number of Slice Flip Flops:         184 out of  15,360    1%
+  Number of 4 input LUTs:             230 out of  15,360    1%
+Logic Distribution:
+  Number of occupied Slices:                          200 out of   7,680    2%
+    Number of Slices containing only related logic:     200 out of     200  100%
+    Number of Slices containing unrelated logic:          0 out of     200    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            365 out of  15,360    2%
+  Number used as logic:                230
+  Number used as a route-thru:          31
+  Number used for Dual Port RAMs:       16
+    (Two LUTs used per Dual Port RAM)
+  Number used for 32x1 RAMs:            52
+    (Two LUTs used per 32x1 RAM)
+  Number used as Shift registers:       36
+  Number of bonded IOBs:               32 out of     173   18%
+    IOB Flip Flops:                    20
+  Number of Block RAMs:                1 out of      24    4%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  79,150
+Additional JTAG gate count for IOBs:  1,536
+Peak Memory Usage:  163 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:266 - The function generator Inst_Display/Mrom__mux00254 failed to
+   merge with F5 multiplexer Inst_Display/Mrom__mux0025_f5_1.  There is a
+   conflict for the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator Inst_Display/Mrom__mux00252 failed to
+   merge with F5 multiplexer Inst_Display/Mrom__mux0025_f5_2.  There is a
+   conflict for the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator Inst_Display/Mrom__mux002510 failed to
+   merge with F5 multiplexer Inst_Display/Mrom__mux0025_f5_4.  There is a
+   conflict for the FXMUX.  The design will exhibit suboptimal timing.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:535 - The following Virtex BUFG(s) is/are being retargetted to
+   Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+   BUFGP symbol "clk50in_BUFGP" (output signal=clk50in_BUFGP)
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs in the
+   schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   5 block(s) removed
+   9 block(s) optimized away
+   7 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "procesador/interrupt_ack" is unused and has been removed.
+ Unused block "procesador/ack_flop" (FF) removed.
+The signal "procesador/sel_shadow_carry" is unused and has been removed.
+ Unused block "procesador/sel_shadow_carry_lut" (ROM) removed.
+The signal "procesador/int_pulse" is unused and has been removed.
+The signal "procesador/int_enable_value" is unused and has been removed.
+ Unused block "procesador/int_value_lut" (ROM) removed.
+The signal "procesador/int_enable" is unused and has been removed.
+ Unused block "procesador/int_enable_flop" (SFF) removed.
+  The signal "procesador/int_update_enable" is unused and has been removed.
+   Unused block "procesador/int_update_lut" (ROM) removed.
+The signal "procesador/not_active_interrupt" is unused and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+FDR 		procesador/int_capture_flop
+   optimized to 0
+FDR 		procesador/int_flop
+   optimized to 0
+LUT4 		procesador/int_pulse_lut
+FDE 		procesador/shadow_carry_flop
+   optimized to 0
+FDE 		procesador/shadow_zero_flop
+   optimized to 0
+INV 		procesador/stack_count_inv
+MUXCY 		procesador/sel_shadow_muxcy
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| clk50in                            | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| digit_out<0>                       | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| digit_out<1>                       | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| digit_out<2>                       | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| digit_out<3>                       | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<0>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<1>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<2>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<3>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<4>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<5>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<6>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| leds<7>                            | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| rs232_rx                           | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| rs232_tx                           | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| rst                                | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| seg_out<0>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| seg_out<1>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| seg_out<2>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| seg_out<3>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| seg_out<4>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| seg_out<5>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1     |          |       |
+| seg_out<6>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| seg_out<7>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| switches<0>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| switches<1>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| switches<2>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| switches<3>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| switches<4>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| switches<5>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| switches<6>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| switches<7>                        | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings

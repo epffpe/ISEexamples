@@ -1,0 +1,83 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do stopwatch_tb_vhd.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity statmach
+# -- Compiling architecture statmach_arch of statmach
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity led_control
+# -- Compiling architecture led_control_arch of led_control
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity hex2led
+# -- Compiling architecture behavioral of hex2led
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity debounce
+# -- Compiling architecture debounce_arch of debounce
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity dcm1
+# -- Compiling architecture behavioral of dcm1
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_div_262k
+# -- Compiling architecture clk_div_262k_arch of clk_div_262k
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity time_cnt
+# -- Compiling architecture time_cnt_arch of time_cnt
+# Model Technology ModelSim XE III vlog 6.1e Compiler 2006.03 Mar  8 2006
+# -- Compiling module ten_cnt
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	ten_cnt
+# 	glbl
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity stopwatch
+# -- Compiling architecture stopwatch_arch of stopwatch
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity stopwatch_tb_vhd
+# -- Compiling architecture behavior of stopwatch_tb_vhd
+# Model Technology ModelSim XE III vlog 6.1e Compiler 2006.03 Mar  8 2006
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps stopwatch_tb_vhd glbl 
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.numeric_std(body)
+# Loading work.stopwatch_tb_vhd(behavior)
+# XE version supports only a single HDL
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./stopwatch_tb_vhd.fdo PAUSED at line 16

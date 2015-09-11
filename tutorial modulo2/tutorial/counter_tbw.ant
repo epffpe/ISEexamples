@@ -1,0 +1,124 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2003 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 8.2.02i
+--  \   \         Application : ISE
+--  /   /         Filename : counter_tbw.ant
+-- /___/   /\     Timestamp : Thu Dec 14 20:43:12 2006
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: counter_tbw
+--Device: Xilinx
+--
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY counter_tbw IS
+END counter_tbw;
+
+ARCHITECTURE testbench_arch OF counter_tbw IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "\\naos\dcse0647$\practicas\tutorial modulo2\tutorial\counter_tbw.ano";
+
+    COMPONENT counter
+        PORT (
+            CLOCK : In std_logic;
+            DIRECTION : In std_logic;
+            COUNT_OUT : Out std_logic_vector (3 DownTo 0)
+        );
+    END COMPONENT;
+
+    SIGNAL CLOCK : std_logic := '0';
+    SIGNAL DIRECTION : std_logic := '0';
+    SIGNAL COUNT_OUT : std_logic_vector (3 DownTo 0) := "0000";
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    constant PERIOD : time := 40 ns;
+    constant DUTY_CYCLE : real := 0.5;
+    constant OFFSET : time := 100 ns;
+
+    BEGIN
+        UUT : counter
+        PORT MAP (
+            CLOCK => CLOCK,
+            DIRECTION => DIRECTION,
+            COUNT_OUT => COUNT_OUT
+        );
+
+        PROCESS    -- clock process for CLOCK
+        BEGIN
+            WAIT for OFFSET;
+            CLOCK_LOOP : LOOP
+                CLOCK <= '0';
+                WAIT FOR (PERIOD - (PERIOD * DUTY_CYCLE));
+                CLOCK <= '1';
+                WAIT FOR (PERIOD * DUTY_CYCLE);
+            END LOOP CLOCK_LOOP;
+        END PROCESS;
+
+        PROCESS    -- Annotation process for CLOCK
+            VARIABLE TX_TIME : INTEGER := 0;
+
+            PROCEDURE ANNOTATE_COUNT_OUT(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", COUNT_OUT, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, COUNT_OUT);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+        BEGIN
+            WAIT for 1 fs;
+            ANNOTATE_COUNT_OUT(0);
+            WAIT for OFFSET;
+            TX_TIME := TX_TIME + 100;
+            ANNO_LOOP : LOOP
+                --Rising Edge
+                WAIT for 30 ns;
+                TX_TIME := TX_TIME + 30;
+                ANNOTATE_COUNT_OUT(TX_TIME);
+                WAIT for 10 ns;
+                TX_TIME := TX_TIME + 10;
+            END LOOP ANNO_LOOP;
+        END PROCESS;
+
+        PROCESS
+            BEGIN
+                -- -------------  Current Time:  310ns
+                WAIT FOR 310 ns;
+                DIRECTION <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  910ns
+                WAIT FOR 600 ns;
+                DIRECTION <= '0';
+                -- -------------------------------------
+                WAIT FOR 630 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

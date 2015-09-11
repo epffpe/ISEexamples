@@ -1,0 +1,28 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do clock_tb_vhd.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity clock
+# -- Compiling architecture arch_clock of clock
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity clock_tb_vhd
+# -- Compiling architecture behavior of clock_tb_vhd
+# vsim -lib work -t 1ps clock_tb_vhd 
+# ** Error: License checkout has been disallowed because
+# only one session is allowed to run on an uncounted nodelock
+# license and an instance of ModelSim is already running with a
+# nodelocked license on this machine
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./clock_tb_vhd.fdo PAUSED at line 7

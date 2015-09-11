@@ -1,0 +1,45 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/kcuart_tx.vhd" in Library work.
+Architecture low_level_definition of Entity kcuart_tx is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/bbfifo_16x8.vhd" in Library work.
+Architecture low_level_definition of Entity bbfifo_16x8 is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/kcuart_rx.vhd" in Library work.
+Architecture low_level_definition of Entity kcuart_rx is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/logica_deco_uart_rx.vhd" in Library work.
+Architecture behavioral of Entity logica_deco_uart_rx is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/divisor_frq.vhd" in Library work.
+Architecture behavioral of Entity divisor is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/uart_rx.vhd" in Library work.
+Architecture macro_level_definition of Entity uart_rx is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/uart_tx.vhd" in Library work.
+Architecture macro_level_definition of Entity uart_tx is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/Inputs_Ports.vhd" in Library work.
+Architecture behavioral of Entity inputs_ports is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/kcpsm3.vhd" in Library work.
+Architecture low_level_definition of Entity kcpsm3 is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/PROG_ROM.VHD" in Library work.
+Architecture low_level_definition of Entity prog_rom is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/Outputs_Ports.vhd" in Library work.
+Architecture behavioral of Entity outputs_ports is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/Display.vhd" in Library work.
+Architecture behavioral of Entity display is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/BORRAR/BORRAR/supersonic.vhd" in Library work.
+Architecture behavioral of Entity supersonic is up to date.
+CPU : 0.58 / 0.81 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 113448 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

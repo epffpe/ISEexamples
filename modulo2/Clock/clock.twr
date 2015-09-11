@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise
+-intstyle ise -e 3 -l 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf
+clock.ucf
+
+Design file:              clock.ncd
+Physical constraint file: clock.pcf
+Device,speed:             xc3s1000,-4 (PRODUCTION 1.38 2006-05-03)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "clk50" PERIOD = 20 ns HIGH 50%;
+
+ 674 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   7.419ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk50in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk50in        |    7.419|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 674 paths, 0 nets, and 462 connections
+
+Design statistics:
+   Minimum period:   7.419ns   (Maximum frequency: 134.789MHz)
+
+
+Analysis completed Fri Feb 16 22:28:16 2007
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 114 MB
+
+
+

@@ -1,0 +1,20 @@
+Release 8.2i - netgen I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -ar Structure -tm stopwatch -w -dir
+netgen/synthesis -ofmt vhdl -sim stopwatch.ngc stopwatch_synthesis.vhd  
+
+Reading design 'stopwatch.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'C:\Xilinx\ISEexamples\wtut_vhd\wtut_vhd\netgen\synthesis\stopwatch_synthesis.vh
+d' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 56440 kilobytes

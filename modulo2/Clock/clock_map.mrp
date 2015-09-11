@@ -1,0 +1,236 @@
+Release 8.2i Map I.31
+Xilinx Mapping Report File for Design 'clock'
+
+Design Information
+------------------
+Command Line   : C:\Xilinx\bin\nt\map.exe -ise
+C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise -intstyle ise -p xc3s1000-ft256-4
+-cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf 
+Target Device  : xc3s1000
+Target Package : ft256
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.34.32.1 $
+Mapped Date    : Fri Feb 16 22:27:48 2007
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   11
+Logic Utilization:
+  Number of Slice Flip Flops:          62 out of  15,360    1%
+  Number of 4 input LUTs:              95 out of  15,360    1%
+Logic Distribution:
+  Number of occupied Slices:                           65 out of   7,680    1%
+    Number of Slices containing only related logic:      65 out of      65  100%
+    Number of Slices containing unrelated logic:          0 out of      65    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            113 out of  15,360    1%
+  Number used as logic:                 95
+  Number used as a route-thru:          18
+  Number of bonded IOBs:               22 out of     173   12%
+    IOB Flip Flops:                    12
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  1,303
+Additional JTAG gate count for IOBs:  1,056
+Peak Memory Usage:  145 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:MapLib:701 - Signal pb_in<1> connected to top level port pb_in<1> has
+   been removed.
+WARNING:MapLib:701 - Signal pb_in<2> connected to top level port pb_in<2> has
+   been removed.
+WARNING:MapLib:701 - Signal pb_in<3> connected to top level port pb_in<3> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<0> connected to top level port sw_in<0> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<1> connected to top level port sw_in<1> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<2> connected to top level port sw_in<2> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<3> connected to top level port sw_in<3> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<4> connected to top level port sw_in<4> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<5> connected to top level port sw_in<5> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<6> connected to top level port sw_in<6> has
+   been removed.
+WARNING:MapLib:701 - Signal sw_in<7> connected to top level port sw_in<7> has
+   been removed.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:535 - The following Virtex BUFG(s) is/are being retargetted to
+   Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+   BUFG symbol "rxclka_bufg" (output signal=clk50)
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs in the
+   schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  22 block(s) removed
+   2 block(s) optimized away
+  11 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "loop0[1].pb_ibuf" (BUF) removed.
+ The signal "pb_in<1>" is loadless and has been removed.
+  Loadless block "pb_in<1>" (PAD) removed.
+Loadless block "loop0[2].pb_ibuf" (BUF) removed.
+ The signal "pb_in<2>" is loadless and has been removed.
+  Loadless block "pb_in<2>" (PAD) removed.
+Loadless block "loop0[3].pb_ibuf" (BUF) removed.
+ The signal "pb_in<3>" is loadless and has been removed.
+  Loadless block "pb_in<3>" (PAD) removed.
+Loadless block "loop1[0].sw_ibuf" (BUF) removed.
+ The signal "sw_in<0>" is loadless and has been removed.
+  Loadless block "sw_in<0>" (PAD) removed.
+Loadless block "loop1[1].sw_ibuf" (BUF) removed.
+ The signal "sw_in<1>" is loadless and has been removed.
+  Loadless block "sw_in<1>" (PAD) removed.
+Loadless block "loop1[2].sw_ibuf" (BUF) removed.
+ The signal "sw_in<2>" is loadless and has been removed.
+  Loadless block "sw_in<2>" (PAD) removed.
+Loadless block "loop1[3].sw_ibuf" (BUF) removed.
+ The signal "sw_in<3>" is loadless and has been removed.
+  Loadless block "sw_in<3>" (PAD) removed.
+Loadless block "loop1[4].sw_ibuf" (BUF) removed.
+ The signal "sw_in<4>" is loadless and has been removed.
+  Loadless block "sw_in<4>" (PAD) removed.
+Loadless block "loop1[5].sw_ibuf" (BUF) removed.
+ The signal "sw_in<5>" is loadless and has been removed.
+  Loadless block "sw_in<5>" (PAD) removed.
+Loadless block "loop1[6].sw_ibuf" (BUF) removed.
+ The signal "sw_in<6>" is loadless and has been removed.
+  Loadless block "sw_in<6>" (PAD) removed.
+Loadless block "loop1[7].sw_ibuf" (BUF) removed.
+ The signal "sw_in<7>" is loadless and has been removed.
+  Loadless block "sw_in<7>" (PAD) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| clk50in                            | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| digit_out<0>                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| digit_out<1>                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| digit_out<2>                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| digit_out<3>                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| led_out<0>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| led_out<1>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| led_out<2>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| led_out<3>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| led_out<4>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| led_out<5>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| led_out<6>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| led_out<7>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| pb_in<0>                           | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| seg_out<0>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| seg_out<1>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| seg_out<2>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| seg_out<3>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| seg_out<4>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| seg_out<5>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| seg_out<6>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| seg_out<7>                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings

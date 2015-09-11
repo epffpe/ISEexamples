@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_A_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_A</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_A_OBUF</arg>&apos;.
+</msg>
+
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_B_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_B</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_B_OBUF</arg>&apos;.
+</msg>
+
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_C_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_C</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_C_OBUF</arg>&apos;.
+</msg>
+
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_D_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_D</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_D_OBUF</arg>&apos;.
+</msg>
+
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_E_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_E</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_E_OBUF</arg>&apos;.
+</msg>
+
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_F_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_F</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_F_OBUF</arg>&apos;.
+</msg>
+
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_G_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_G</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_G_OBUF</arg>&apos;.
+</msg>
+
+<msg type="info" file="Map" num="110" delta="unknown" >output buffer &apos;<arg fmt="%s" index="1">SEG_DP_OBUF</arg>&apos; driving design level port &apos;<arg fmt="%s" index="2">SEG_DP</arg>&apos; is being pushed into module &apos;<arg fmt="%s" index="3">LEDCONTROL_1</arg>&apos; to enable I/O register usage. The buffer has been renamed as &apos;<arg fmt="%s" index="4">LEDCONTROL_1/SEG_DP_OBUF</arg>&apos;.
+</msg>
+
+<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">TIMECNT_1/N14</arg> has no load.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="unknown" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs in the schematic.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="772">To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp DCM1_1/DCM_INST/DCM1_1/DCM_INST, consult the device Interactive Data Sheet.
+</msg>
+
+</messages>

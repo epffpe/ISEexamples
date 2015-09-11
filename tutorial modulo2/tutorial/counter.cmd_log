@@ -1,0 +1,11 @@
+xst -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -ifn counter.xst -ofn counter.syr
+ngdbuild -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "counter.ngc" counter.ngd
+ngdbuild -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -dd _ngo -nt timestamp -uc "counter.ucf" -p xc3s200-ft256-4 "counter.ngc" counter.ngd
+map -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -o counter_map.ncd counter.ngd counter.pcf
+par -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -w -intstyle ise -ol std -t 1 counter_map.ncd counter.ncd counter.pcf
+trce -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -e 3 -l 3 -s 4 -xml counter counter.ncd -o counter.twr counter.pcf -ucf counter.ucf
+ngdbuild -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -dd _ngo -nt timestamp -uc "counter.ucf" -p xc3s200-ft256-4 "counter.ngc" counter.ngd
+map -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -o counter_map.ncd counter.ngd counter.pcf
+par -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -w -intstyle ise -ol std -t 1 counter_map.ncd counter.ncd counter.pcf
+trce -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -e 3 -l 3 -s 4 -xml counter counter.ncd -o counter.twr counter.pcf -ucf counter.ucf
+netgen -ise "U:/practicas/tutorial modulo2/tutorial/tutorial.ise" -intstyle ise -s 4 -pcf counter.pcf -sdf_anno true -sdf_path netgen/par -insert_glbl true -w -dir netgen/par -ofmt verilog -sim counter.ncd counter_timesim.v

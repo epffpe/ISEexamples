@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn logica_deco_uart_rx.prj
+-ifmt mixed

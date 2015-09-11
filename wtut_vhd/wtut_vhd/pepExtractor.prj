@@ -1,0 +1,7 @@
+work "../time_cnt.vhd"
+work "clk_div_262k.vhd"
+work "debounce.vhd"
+work "hex2led.vhd"
+work "led_control.vhd"
+work "statmach.vhd"
+work "stopwatch.vhd"

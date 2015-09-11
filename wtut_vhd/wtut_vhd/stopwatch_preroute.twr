@@ -1,0 +1,451 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise
+C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise -intstyle ise -v 3 -l 3 -s
+4 -xml stopwatch_preroute stopwatch_map.ncd -o stopwatch_preroute.twr
+stopwatch.pcf
+
+Design file:              stopwatch_map.ncd
+Physical constraint file: stopwatch.pcf
+Device,speed:             xc3s200,-4 (PRODUCTION 1.38 2006-05-03)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: TS_CLK = PERIOD TIMEGRP "CLK_GROUP" 20 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_DCM1_1_CLK0_BUF = PERIOD TIMEGRP "DCM1_1_CLK0_BUF" TS_CLK HIGH 50%;
+
+ 184 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   4.332ns.
+--------------------------------------------------------------------------------
+Slack:                  15.668ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               LEDCONTROL_1/cnt_1 (FF)
+  Destination:          LEDCONTROL_1/cnt_15 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.332ns (Levels of Logic = 8)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK rising at 0.000ns
+  Destination Clock:    CLK rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: LEDCONTROL_1/cnt_1 to LEDCONTROL_1/cnt_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.720   LEDCONTROL_1/cnt<0>
+                                                       LEDCONTROL_1/cnt_1
+    SLICEL.G1            net (fanout=1)     e  0.100   LEDCONTROL_1/cnt<1>
+    SLICEL.COUT          Topcyg                1.039   LEDCONTROL_1/cnt<0>
+                                                       LEDCONTROL_1/cnt<1>_rt
+                                                       LEDCONTROL_1/Mcount_cnt_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<1>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<2>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<2>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<3>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<4>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<4>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<5>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<6>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<6>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<7>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<8>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<8>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<9>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<10>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<10>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<11>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<12>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<12>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<13>
+    SLICEL.CLK           Tcinck                1.005   LEDCONTROL_1/cnt<14>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<14>
+                                                       LEDCONTROL_1/Mcount_cnt_xor<15>
+                                                       LEDCONTROL_1/cnt_15
+    -------------------------------------------------  ---------------------------
+    Total                                      4.332ns (3.532ns logic, 0.800ns route)
+                                                       (81.5% logic, 18.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  15.680ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               LEDCONTROL_1/cnt_0 (FF)
+  Destination:          LEDCONTROL_1/cnt_15 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.320ns (Levels of Logic = 8)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK rising at 0.000ns
+  Destination Clock:    CLK rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: LEDCONTROL_1/cnt_0 to LEDCONTROL_1/cnt_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.720   LEDCONTROL_1/cnt<0>
+                                                       LEDCONTROL_1/cnt_0
+    SLICEL.F1            net (fanout=1)     e  0.100   LEDCONTROL_1/cnt<0>
+    SLICEL.COUT          Topcyf                1.027   LEDCONTROL_1/cnt<0>
+                                                       LEDCONTROL_1/Mcount_cnt_lut<0>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<0>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<1>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<2>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<2>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<3>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<4>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<4>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<5>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<6>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<6>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<7>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<8>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<8>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<9>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<10>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<10>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<11>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<12>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<12>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<13>
+    SLICEL.CLK           Tcinck                1.005   LEDCONTROL_1/cnt<14>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<14>
+                                                       LEDCONTROL_1/Mcount_cnt_xor<15>
+                                                       LEDCONTROL_1/cnt_15
+    -------------------------------------------------  ---------------------------
+    Total                                      4.320ns (3.520ns logic, 0.800ns route)
+                                                       (81.5% logic, 18.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  15.687ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               LEDCONTROL_1/cnt_1 (FF)
+  Destination:          LEDCONTROL_1/cnt_14 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.313ns (Levels of Logic = 8)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK rising at 0.000ns
+  Destination Clock:    CLK rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: LEDCONTROL_1/cnt_1 to LEDCONTROL_1/cnt_14
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.720   LEDCONTROL_1/cnt<0>
+                                                       LEDCONTROL_1/cnt_1
+    SLICEL.G1            net (fanout=1)     e  0.100   LEDCONTROL_1/cnt<1>
+    SLICEL.COUT          Topcyg                1.039   LEDCONTROL_1/cnt<0>
+                                                       LEDCONTROL_1/cnt<1>_rt
+                                                       LEDCONTROL_1/Mcount_cnt_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<1>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<2>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<2>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<3>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<4>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<4>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<5>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<6>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<6>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<7>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<8>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<8>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<9>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<10>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<10>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<11>
+    SLICEL.COUT          Tbyp                  0.128   LEDCONTROL_1/cnt<12>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<12>
+                                                       LEDCONTROL_1/Mcount_cnt_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   LEDCONTROL_1/Mcount_cnt_cy<13>
+    SLICEL.CLK           Tcinck                0.986   LEDCONTROL_1/cnt<14>
+                                                       LEDCONTROL_1/Mcount_cnt_xor<14>
+                                                       LEDCONTROL_1/cnt_14
+    -------------------------------------------------  ---------------------------
+    Total                                      4.313ns (3.513ns logic, 0.800ns route)
+                                                       (81.5% logic, 18.5% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_DCM1_1_CLKFX_BUF = PERIOD TIMEGRP "DCM1_1_CLKFX_BUF" TS_CLK / 0.52 HIGH
+        50%;
+
+ 2 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   1.846ns.
+--------------------------------------------------------------------------------
+Slack:                  36.615ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CLKDIV262K_1/div_32_15 (FF)
+  Destination:          CLKDIV262K_1/div_32_0 (FF)
+  Requirement:          38.461ns
+  Data Path Delay:      1.846ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_262144k rising at 0.000ns
+  Destination Clock:    clk_262144k rising at 38.461ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: CLKDIV262K_1/div_32_15 to CLKDIV262K_1/div_32_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEM.YQ            Tcko                  0.720   CLKDIV262K_1/div_32<15>
+                                                       CLKDIV262K_1/div_32_15
+    SLICEL.SR            net (fanout=3)     e  0.100   CLKDIV262K_1/div_32<15>
+    SLICEL.CLK           Tsrck                 1.026   CLKDIV262K_1/div_32<0>
+                                                       CLKDIV262K_1/div_32_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.846ns (1.746ns logic, 0.100ns route)
+                                                       (94.6% logic, 5.4% route)
+
+--------------------------------------------------------------------------------
+Slack:                  37.202ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CLKDIV262K_1/div_32_0 (FF)
+  Destination:          CLKDIV262K_1/Mshreg_div_32_15/SRL16E (FF)
+  Requirement:          38.461ns
+  Data Path Delay:      1.259ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_262144k rising at 0.000ns
+  Destination Clock:    clk_262144k rising at 38.461ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: CLKDIV262K_1/div_32_0 to CLKDIV262K_1/Mshreg_div_32_15/SRL16E
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.720   CLKDIV262K_1/div_32<0>
+                                                       CLKDIV262K_1/div_32_0
+    SLICEM.BY            net (fanout=1)     e  0.100   CLKDIV262K_1/div_32<0>
+    SLICEM.CLK           Tds                   0.439   CLKDIV262K_1/div_32<15>
+                                                       CLKDIV262K_1/Mshreg_div_32_15/SRL16E
+    -------------------------------------------------  ---------------------------
+    Total                                      1.259ns (1.159ns logic, 0.100ns route)
+                                                       (92.1% logic, 7.9% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TIMEGRP "display_grp" OFFSET = OUT 5 ns AFTER COMP "CLK";
+
+ 8 items analyzed, 0 timing errors detected.
+ Minimum allowable offset is   4.211ns.
+--------------------------------------------------------------------------------
+Slack:                  0.789ns (requirement - (clock arrival + clock path + data path + uncertainty))
+  Source:               LEDCONTROL_1/SEVEN_SEG_5 (FF)
+  Destination:          SEG_E (PAD)
+  Source Clock:         CLK rising at 0.000ns
+  Requirement:          5.000ns
+  Data Path Delay:      4.369ns (Levels of Logic = 0)
+  Clock Path Delay:     -0.158ns (Levels of Logic = 3)
+  Clock Uncertainty:    0.000ns
+
+  Clock Path: CLK to LEDCONTROL_1/SEVEN_SEG_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    IOB.I                Tiopi                 1.938   CLK
+                                                       CLK
+                                                       DCM1_1/CLKIN_IBUFG_INST
+    DCM.CLKIN            net (fanout=1)     e  0.100   DCM1_1/CLKIN_IBUFG_OUT
+    DCM.CLK0             Tdcmino              -2.397   DCM1_1/DCM_INST
+                                                       DCM1_1/DCM_INST
+    BUFGMUX.I0           net (fanout=1)     e  0.100   DCM1_1/CLK0_BUF
+    BUFGMUX.O            Tgi0o                 0.001   DCM1_1/CLK0_BUFG_INST
+                                                       DCM1_1/CLK0_BUFG_INST
+    IOB.OTCLK1           net (fanout=2)     e  0.100   clk_int
+    -------------------------------------------------  ---------------------------
+    Total                                     -0.158ns (-0.458ns logic, 0.300ns route)
+
+  Data Path: LEDCONTROL_1/SEVEN_SEG_5 to SEG_E
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    IOB.PAD              Tiockp                4.369   SEG_E
+                                                       LEDCONTROL_1/SEVEN_SEG_5
+                                                       LEDCONTROL_1/SEG_E_OBUF
+                                                       SEG_E
+    -------------------------------------------------  ---------------------------
+    Total                                      4.369ns (4.369ns logic, 0.000ns route)
+                                                       (100.0% logic, 0.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  0.789ns (requirement - (clock arrival + clock path + data path + uncertainty))
+  Source:               LEDCONTROL_1/SEVEN_SEG_7 (FF)
+  Destination:          SEG_G (PAD)
+  Source Clock:         CLK rising at 0.000ns
+  Requirement:          5.000ns
+  Data Path Delay:      4.369ns (Levels of Logic = 0)
+  Clock Path Delay:     -0.158ns (Levels of Logic = 3)
+  Clock Uncertainty:    0.000ns
+
+  Clock Path: CLK to LEDCONTROL_1/SEVEN_SEG_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    IOB.I                Tiopi                 1.938   CLK
+                                                       CLK
+                                                       DCM1_1/CLKIN_IBUFG_INST
+    DCM.CLKIN            net (fanout=1)     e  0.100   DCM1_1/CLKIN_IBUFG_OUT
+    DCM.CLK0             Tdcmino              -2.397   DCM1_1/DCM_INST
+                                                       DCM1_1/DCM_INST
+    BUFGMUX.I0           net (fanout=1)     e  0.100   DCM1_1/CLK0_BUF
+    BUFGMUX.O            Tgi0o                 0.001   DCM1_1/CLK0_BUFG_INST
+                                                       DCM1_1/CLK0_BUFG_INST
+    IOB.OTCLK1           net (fanout=2)     e  0.100   clk_int
+    -------------------------------------------------  ---------------------------
+    Total                                     -0.158ns (-0.458ns logic, 0.300ns route)
+
+  Data Path: LEDCONTROL_1/SEVEN_SEG_7 to SEG_G
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    IOB.PAD              Tiockp                4.369   SEG_G
+                                                       LEDCONTROL_1/SEVEN_SEG_7
+                                                       LEDCONTROL_1/SEG_G_OBUF
+                                                       SEG_G
+    -------------------------------------------------  ---------------------------
+    Total                                      4.369ns (4.369ns logic, 0.000ns route)
+                                                       (100.0% logic, 0.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  0.789ns (requirement - (clock arrival + clock path + data path + uncertainty))
+  Source:               LEDCONTROL_1/SEVEN_SEG_6 (FF)
+  Destination:          SEG_F (PAD)
+  Source Clock:         CLK rising at 0.000ns
+  Requirement:          5.000ns
+  Data Path Delay:      4.369ns (Levels of Logic = 0)
+  Clock Path Delay:     -0.158ns (Levels of Logic = 3)
+  Clock Uncertainty:    0.000ns
+
+  Clock Path: CLK to LEDCONTROL_1/SEVEN_SEG_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    IOB.I                Tiopi                 1.938   CLK
+                                                       CLK
+                                                       DCM1_1/CLKIN_IBUFG_INST
+    DCM.CLKIN            net (fanout=1)     e  0.100   DCM1_1/CLKIN_IBUFG_OUT
+    DCM.CLK0             Tdcmino              -2.397   DCM1_1/DCM_INST
+                                                       DCM1_1/DCM_INST
+    BUFGMUX.I0           net (fanout=1)     e  0.100   DCM1_1/CLK0_BUF
+    BUFGMUX.O            Tgi0o                 0.001   DCM1_1/CLK0_BUFG_INST
+                                                       DCM1_1/CLK0_BUFG_INST
+    IOB.OTCLK1           net (fanout=2)     e  0.100   clk_int
+    -------------------------------------------------  ---------------------------
+    Total                                     -0.158ns (-0.458ns logic, 0.300ns route)
+
+  Data Path: LEDCONTROL_1/SEVEN_SEG_6 to SEG_F
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    IOB.PAD              Tiockp                4.369   SEG_F
+                                                       LEDCONTROL_1/SEVEN_SEG_6
+                                                       LEDCONTROL_1/SEG_F_OBUF
+                                                       SEG_F
+    -------------------------------------------------  ---------------------------
+    Total                                      4.369ns (4.369ns logic, 0.000ns route)
+                                                       (100.0% logic, 0.0% route)
+
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+SEG_A       |    4.211(R)|CLK               |   0.000|
+SEG_B       |    4.211(R)|CLK               |   0.000|
+SEG_C       |    4.211(R)|CLK               |   0.000|
+SEG_D       |    4.211(R)|CLK               |   0.000|
+SEG_DP      |    4.211(R)|CLK               |   0.000|
+SEG_E       |    4.211(R)|CLK               |   0.000|
+SEG_F       |    4.211(R)|CLK               |   0.000|
+SEG_G       |    4.211(R)|CLK               |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.332|         |         |         |
+---------------+---------+---------+---------+---------+
+
+TIMEGRP "display_grp" OFFSET = OUT 5 ns AFTER COMP "CLK";
+Largest slack: 0.789 ns; Smallest slack: 0.789 ns; Relative Skew: 0.000 ns; 
+-----------------------------------------------+-------------+-------------+
+PAD                                            |    Slack    |Relative Skew|
+-----------------------------------------------+-------------+-------------+
+SEG_A                                          |        0.789|        0.000|
+SEG_B                                          |        0.789|        0.000|
+SEG_C                                          |        0.789|        0.000|
+SEG_D                                          |        0.789|        0.000|
+SEG_DP                                         |        0.789|        0.000|
+SEG_E                                          |        0.789|        0.000|
+SEG_F                                          |        0.789|        0.000|
+SEG_G                                          |        0.789|        0.000|
+-----------------------------------------------+-------------+-------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 194 paths, 0 nets, and 331 connections
+
+Design statistics:
+   Minimum period:   4.332ns{1}   (Maximum frequency: 230.840MHz)
+   Minimum output required time after clock:   4.211ns
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Fri Jan 19 12:03:37 2007
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 104 MB
+
+
+

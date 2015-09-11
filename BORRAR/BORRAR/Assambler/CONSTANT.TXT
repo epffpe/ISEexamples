@@ -1,0 +1,12 @@
+Table of constant values and their specified constant labels.
+
+00  Port_A
+01  UART_read_port
+02  UART_status_port
+01  UART_write_port
+02  STATUS_port
+01  tx_half_full
+02  tx_full
+04  rx_half_full
+08  rx_full
+10  rx_data_present

@@ -1,0 +1,495 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\dcse0647\Escritorio\BORRAR\BORRAR
+Ebbfifo_16x8
+w1070466836
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fbbfifo_16x8.vhd
+l0
+L56
+VA93H[mCWgF7ikzMSSf=IO0
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Alow_level_definition
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work bbfifo_16x8 A93H[mCWgF7ikzMSSf=IO0
+l113
+L72
+V2d5PgTb@Z`]W2kEZ6bZN52
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Edisplay
+w1171667600
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\BORRAR\BORRAR
+FDisplay.vhd
+l0
+L30
+VzHjh>[SIPcTLBiA:Kf3T_1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work display zHjh>[SIPcTLBiA:Kf3T_1
+l101
+L40
+VdRJ4ILAU7zUOi`Ch0^PYW0
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Edivisor
+w1170990274
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fdivisor_frq.vhd
+l0
+L30
+Vbd_Y7]d_SJ01X@DR0F89Y1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work divisor bd_Y7]d_SJ01X@DR0F89Y1
+l50
+L36
+VM3HJg0@4SIoWh^>?H0]f70
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Einputs_ports
+w1169777588
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+FInputs_Ports.vhd
+l0
+L30
+VT^cA2z^h5bR8RBBgJPzGK2
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work inputs_ports T^cA2z^h5bR8RBBgJPzGK2
+l46
+L40
+VPl:U<WFLG2;QkdFE@4bY_1
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Ekcpsm3
+w1121845838
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fkcpsm3.vhd
+l0
+L77
+V7?O?GPnGAf0W4FID:Q4DT2
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Alow_level_definition
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work kcpsm3 7?O?GPnGAf0W4FID:Q4DT2
+l279
+L95
+VNMge1X8W7>9@XL2z3Jzbd3
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Ekcuart_rx
+w1070466818
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fkcuart_rx.vhd
+l0
+L54
+V@;H>3331YU]GDZgmV9Fk:0
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Alow_level_definition
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work kcuart_rx @;H>3331YU]GDZgmV9Fk:0
+l113
+L66
+VfzfoRKCIhJDJVCABJ:VTm3
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Ekcuart_tx
+w1070466828
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fkcuart_tx.vhd
+l0
+L54
+V4k`1=Ve>YR1>cml;1n`N<1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Alow_level_definition
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work kcuart_tx 4k`1=Ve>YR1>cml;1n`N<1
+l129
+L67
+VX:cGCRV`YU3SO6@04@a400
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Elogica_deco_uart_rx
+w1169764296
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Flogica_deco_uart_rx.vhd
+l0
+L30
+VjiJ:<ZO4BA`3=HBn733BQ3
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work logica_deco_uart_rx jiJ:<ZO4BA`3=HBn733BQ3
+l41
+L37
+V0bC=da0]68G1Z7YYf`anX2
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Eout_ports_tb_vhd
+w1171676245
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fout_ports_tb.vhd
+l0
+L34
+Vgo9R_@RRSKz`a7b52zO4O3
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavior
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work out_ports_tb_vhd go9R_@RRSKz`a7b52zO4O3
+l67
+L37
+VLL6?;e>?KZj4]<2Z5iUlJ2
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+M1 ieee numeric_std
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Eoutputs_ports
+w1171675888
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+FOutputs_Ports.vhd
+l0
+L30
+V<[VaP1iKdaOAiX5WYUK7f0
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work outputs_ports <[VaP1iKdaOAiX5WYUK7f0
+l49
+L43
+VE]JF20;F2@TTfFYB?41[H3
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Eprog_rom
+w1171362475
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+FAssambler/PROG_ROM.VHD
+l0
+L20
+V[>5SA:[1dhWX2KGeQ@Szk1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Alow_level_definition
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work prog_rom [>5SA:[1dhWX2KGeQ@Szk1
+l179
+L26
+VPSXkVZP1`@WY:?FPY7aY?0
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Esupersonic
+w1171675528
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fsupersonic.vhd
+l0
+L30
+Vm<khAc^3H4Le3aKPJiQ;92
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work supersonic m<khAc^3H4Le3aKPJiQ;92
+l210
+L41
+VY2BWlB1Kk0i`YK7WVOVgH2
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Esupersonic_tb_vhd
+w1171678460
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fsupersonic_tb.vhd
+l0
+L34
+V6<0FY5n25T>N`:SiC4La32
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavior
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work supersonic_tb_vhd 6<0FY5n25T>N`:SiC4La32
+l61
+L37
+VlgAnORgQUk]@RUV7eITOB2
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+M1 ieee numeric_std
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Etestbench
+w1171666235
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\BORRAR\BORRAR
+Fdisplay_tb.vhd
+l0
+L7
+V_8MZ]lQh]kD953`YA[7U]0
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavior
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work testbench _8MZ]lQh]kD953`YA[7U]0
+l30
+L10
+Vd<E`:6Z<Fez]@<z4aiE><2
+OX;C;6.1e;31
+31
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Euart_rx
+w1070466806
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fuart_rx.vhd
+l0
+L52
+V]JT@LfCYi0VJ_Y[Mc8[SD3
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Amacro_level_definition
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work uart_rx ]JT@LfCYi0VJ_Y[Mc8[SD3
+l115
+L68
+VGMU61YQZM8be49XFmdaiZ0
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Euart_tx
+w1070466796
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+dC:\Xilinx\ISEexamples\modulo3\PicoBlaze
+Fuart_tx.vhd
+l0
+L52
+V5JgCGk3hPn=fOESSX0F^B3
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Amacro_level_definition
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work uart_tx 5JgCGk3hPn=fOESSX0F^B3
+l116
+L67
+VSa0^W8cCCMB?DIcDD;B0L0
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_arith
+M2 ieee std_logic_unsigned
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000

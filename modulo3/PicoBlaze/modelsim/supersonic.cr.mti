@@ -1,0 +1,58 @@
+C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/supersonic.vhd {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/supersonic.vhd
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity supersonic
+-- Compiling architecture behavioral of supersonic
+
+} {} {}} C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/Outputs_Ports.vhd {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/Outputs_Ports.vhd
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity outputs_ports
+-- Compiling architecture behavioral of outputs_ports
+
+} {} {}} C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/supersonic_tb.vhd {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/supersonic_tb.vhd
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity supersonic_tb_vhd
+-- Compiling architecture behavior of supersonic_tb_vhd
+
+} {} {}} C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/PROG_ROM.VHD {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/PROG_ROM.VHD
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package vcomponents
+-- Compiling entity prog_rom
+-- Compiling architecture low_level_definition of prog_rom
+
+} {} {}} C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/kcpsm3.vhd {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/kcpsm3.vhd
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package vcomponents
+-- Compiling entity kcpsm3
+-- Compiling architecture low_level_definition of kcpsm3
+
+} {} {}} C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/Inputs_Ports.vhd {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/modulo3/PicoBlaze/modelsim/Inputs_Ports.vhd
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity inputs_ports
+-- Compiling architecture behavioral of inputs_ports
+
+} {} {}}

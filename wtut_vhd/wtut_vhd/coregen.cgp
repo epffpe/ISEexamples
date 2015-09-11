@@ -1,0 +1,20 @@
+# Date: Sat Jan 13 16:46:11 2007
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = C:\Xilinx\ISEexamples\wtut_vhd\wtut_vhd\tmp
+SET speedgrade = -4
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc3s200
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ft256
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = spartan3
+SET formalverification = False
+SET removerpms = False
+

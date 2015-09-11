@@ -1,0 +1,18 @@
+C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/stopwatch_tb.vhd {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/stopwatch_tb.vhd
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity stopwatch_tb_vhd
+-- Compiling architecture behavior of stopwatch_tb_vhd
+
+} {} {}} C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/stopwatch.vhd {1 {vcom -work work -93 -explicit C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/stopwatch.vhd
+Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity stopwatch
+-- Compiling architecture stopwatch_arch of stopwatch
+
+} {} {}}

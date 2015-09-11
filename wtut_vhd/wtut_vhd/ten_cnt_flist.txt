@@ -1,0 +1,11 @@
+# Output products list for <ten_cnt>
+ten_cnt.asy
+ten_cnt.edn
+ten_cnt.sym
+ten_cnt.v
+ten_cnt.veo
+ten_cnt.vhd
+ten_cnt.vho
+ten_cnt.xco
+ten_cnt_c_counter_binary_v8_0_xst_1.ngc
+ten_cnt_flist.txt

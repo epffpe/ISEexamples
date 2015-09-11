@@ -1,0 +1,9 @@
+[Inputs]
+clk
+rs232_rx
+rst
+=switches[7:0]=
+[Outputs]
+rs232_tx
+=leds[7:0]=
+[BiDir]

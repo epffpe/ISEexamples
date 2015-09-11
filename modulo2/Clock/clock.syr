@@ -1,0 +1,423 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: clock.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "clock.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "clock"
+Output Format                      : NGC
+Target Device                      : xc3s1000-4-ft256
+
+---- Source Options
+Top Module Name                    : clock
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : clock.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" in Library work.
+Architecture arch_clock of Entity clock is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <clock> in library <work> (architecture <arch_clock>).
+
+Building hierarchy successfully finished.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <clock> in library <work> (Architecture <arch_clock>).
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 115: Instantiating black box module <ibufg_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 116: Instantiating black box module <bufg>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 119: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 120: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 119: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 120: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 119: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 120: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 119: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 120: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 124: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 125: Instantiating black box module <obuf_lvcmos33>.
+WARNING:Xst:2211 - "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd" line 126: Instantiating black box module <ibuf_lvcmos33>.
+Entity <clock> analyzed. Unit <clock> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock>.
+    Related source file is "C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd".
+WARNING:Xst:646 - Signal <high> is assigned but never used.
+WARNING:Xst:646 - Signal <low> is assigned but never used.
+WARNING:Xst:646 - Signal <pb<3:1>> is assigned but never used.
+WARNING:Xst:646 - Signal <sw> is assigned but never used.
+    Found 4x1-bit ROM for signal <$mux0020>.
+    Found 4x1-bit ROM for signal <$mux0022>.
+    Found 4-bit adder for signal <$add0000> created at line 220.
+    Found 4-bit adder for signal <$add0001> created at line 223.
+    Found 4-bit adder for signal <$add0002> created at line 226.
+    Found 4-bit adder for signal <$add0003> created at line 229.
+    Found 2-bit adder for signal <$add0004> created at line 247.
+    Found 1-of-4 decoder for signal <$mux0023> created at line 249.
+    Found 4-bit 4-to-1 multiplexer for signal <$mux0024> created at line 249.
+    Found 16-bit register for signal <bcdint>.
+    Found 3-bit register for signal <cd>.
+    Found 4-bit register for signal <curr>.
+    Found 4-bit register for signal <digit>.
+    Found 1-bit register for signal <dp>.
+    Found 10-bit up counter for signal <hertz_count>.
+    Found 1-bit register for signal <hertz_en>.
+    Found 10-bit up counter for signal <khertz_count>.
+    Found 1-bit register for signal <khertz_en>.
+    Found 8-bit register for signal <led>.
+    Found 6-bit up counter for signal <mhertz_count>.
+    Found 1-bit register for signal <mhertz_en>.
+    Found 1-bit register for signal <point>.
+    Found 8-bit register for signal <seg>.
+    Summary:
+	inferred   2 ROM(s).
+	inferred   3 Counter(s).
+	inferred  40 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Decoder(s).
+Unit <clock> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 4x1-bit ROM                                           : 2
+# Adders/Subtractors                                   : 5
+ 2-bit adder                                           : 1
+ 4-bit adder                                           : 4
+# Counters                                             : 3
+ 10-bit up counter                                     : 2
+ 6-bit up counter                                      : 1
+# Registers                                            : 13
+ 1-bit register                                        : 8
+ 16-bit register                                       : 1
+ 4-bit register                                        : 2
+ 8-bit register                                        : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s1000.nph' in environment C:\Xilinx.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 4x1-bit ROM                                           : 2
+# Adders/Subtractors                                   : 5
+ 2-bit adder                                           : 1
+ 4-bit adder                                           : 4
+# Counters                                             : 3
+ 10-bit up counter                                     : 2
+ 6-bit up counter                                      : 1
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <clock> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block clock, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 74
+ Flip-Flops                                            : 74
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : clock.ngr
+Top Level Output File Name         : clock
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 33
+
+Cell Usage :
+# BELS                             : 164
+#      GND                         : 1
+#      INV                         : 10
+#      LUT1                        : 18
+#      LUT2                        : 9
+#      LUT2_D                      : 3
+#      LUT2_L                      : 1
+#      LUT3                        : 14
+#      LUT3_L                      : 3
+#      LUT4                        : 47
+#      LUT4_D                      : 7
+#      LUT4_L                      : 4
+#      MUXCY                       : 18
+#      MUXF5                       : 10
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 74
+#      FDC                         : 15
+#      FDCE                        : 46
+#      FDP                         : 12
+#      FDPE                        : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 33
+#      IBUF_LVCMOS33               : 12
+#      IBUFG_LVCMOS33              : 1
+#      OBUF_LVCMOS33               : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-4 
+
+ Number of Slices:                      65  out of   7680     0%  
+ Number of Slice Flip Flops:            74  out of  15360     0%  
+ Number of 4 input LUTs:               116  out of  15360     0%  
+ Number of IOs:                         33
+ Number of bonded IOBs:                 33  out of    173    19%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk50in                            | IBUFG_LVCMOS33+BUFG    | 74    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+pb_in<0>                           | IBUF_LVCMOS33          | 74    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.983ns (Maximum Frequency: 167.140MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 3.826ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk50in'
+  Clock period: 5.983ns (frequency: 167.140MHz)
+  Total number of paths / destination ports: 674 / 120
+-------------------------------------------------------------------------
+Delay:               5.983ns (Levels of Logic = 3)
+  Source:            bcdint_5 (FF)
+  Destination:       bcdint_8 (FF)
+  Source Clock:      clk50in rising
+  Destination Clock: clk50in rising
+
+  Data Path: bcdint_5 to bcdint_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.720   1.260  bcdint_5 (bcdint_5)
+     LUT2:I0->O            1   0.551   0.869  _mux0019<10>21_SW0 (N162)
+     LUT4:I2->O            8   0.551   1.278  _mux0019<7>1 (N10)
+     LUT2:I1->O            1   0.551   0.000  _mux0019<7>2 (_mux0019<7>)
+     FDCE:D                    0.203          bcdint_8
+    ----------------------------------------
+    Total                      5.983ns (2.576ns logic, 3.407ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk50in'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              3.826ns (Levels of Logic = 1)
+  Source:            led_7 (FF)
+  Destination:       led_out<7> (PAD)
+  Source Clock:      clk50in rising
+
+  Data Path: led_7 to led_out<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.720   0.877  led_7 (led_7)
+     OBUF_LVCMOS33:I->O        2.229          loop1[7].led_obuf (led_out<7>)
+    ----------------------------------------
+    Total                      3.826ns (2.949ns logic, 0.877ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+CPU : 7.83 / 8.11 s | Elapsed : 8.00 / 8.00 s
+ 
+--> 
+
+Total memory usage is 141076 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   38 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

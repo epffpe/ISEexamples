@@ -1,0 +1,5 @@
+# begin LFP file C:\Documents and Settings\dcse0647\Escritorio\BORRAR\BORRAR\supersonic.lfp
+designfile supersonic.vhd
+parttype xc3s1000-4-ft256
+bus_delimiter 8;
+set_busdelim_onsave 1;

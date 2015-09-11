@@ -1,0 +1,157 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do supersonic_tb_vhd.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity kcuart_tx
+# -- Compiling architecture low_level_definition of kcuart_tx
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity kcuart_rx
+# -- Compiling architecture low_level_definition of kcuart_rx
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity bbfifo_16x8
+# -- Compiling architecture low_level_definition of bbfifo_16x8
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity uart_tx
+# -- Compiling architecture macro_level_definition of uart_tx
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity uart_rx
+# -- Compiling architecture macro_level_definition of uart_rx
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity logica_deco_uart_rx
+# -- Compiling architecture behavioral of logica_deco_uart_rx
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity kcpsm3
+# -- Compiling architecture low_level_definition of kcpsm3
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity divisor
+# -- Compiling architecture behavioral of divisor
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity outputs_ports
+# -- Compiling architecture behavioral of outputs_ports
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity inputs_ports
+# -- Compiling architecture behavioral of inputs_ports
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity prog_rom
+# -- Compiling architecture low_level_definition of prog_rom
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity supersonic
+# -- Compiling architecture behavioral of supersonic
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity supersonic_tb_vhd
+# -- Compiling architecture behavior of supersonic_tb_vhd
+# vsim -lib work -t 1ps supersonic_tb_vhd 
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.numeric_std(body)
+# Loading work.supersonic_tb_vhd(behavior)
+# Loading work.supersonic(behavioral)
+# Loading work.logica_deco_uart_rx(behavioral)
+# Loading work.divisor(behavioral)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.vcomponents
+# Loading work.uart_rx(macro_level_definition)
+# Loading work.kcuart_rx(low_level_definition)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fd(fd_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.textio(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.vital_timing(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.vital_primitives(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.vpkg(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.srl16e(srl16e_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fde(fde_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut4(lut4_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut3(lut3_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut2(lut2_v)
+# Loading work.bbfifo_16x8(low_level_definition)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fdre(fdre_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.muxcy(muxcy_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.xorcy(xorcy_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fdr(fdr_v)
+# Loading work.uart_tx(macro_level_definition)
+# Loading work.kcuart_tx(low_level_definition)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.muxf5(muxf5_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.muxf6(muxf6_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fdrs(fdrs_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.mult_and(mult_and_v)
+# Loading work.inputs_ports(behavioral)
+# Loading work.kcpsm3(low_level_definition)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut1(lut1_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fds(fds_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.inv(inv_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fdrse(fdrse_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ram16x1d(ram16x1d_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ram64x1s(ram64x1s_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ram32x1s(ram32x1s_v)
+# Loading work.prog_rom(low_level_definition)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ramb16_s18(ramb16_s18_v)
+# Loading work.outputs_ports(behavioral)
+# Loading work.display(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+run
+run
+run -all
+# Break key hit 
+# Simulation stop requested.

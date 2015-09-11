@@ -1,0 +1,3 @@
+vhdl work "kcuart_rx.vhd"
+vhdl work "bbfifo_16x8.vhd"
+vhdl work "uart_rx.vhd"

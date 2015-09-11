@@ -1,0 +1,60 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do Prueba_programa.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity kcpsm3
+# -- Compiling architecture low_level_definition of kcpsm3
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity prog_rom
+# -- Compiling architecture low_level_definition of prog_rom
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity prueba_programa
+# -- Compiling architecture behavior of prueba_programa
+# vsim -lib work -t 1ps Prueba_programa 
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.numeric_std(body)
+# Loading work.prueba_programa(behavior)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.vcomponents
+# Loading work.kcpsm3(low_level_definition)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut1(lut1_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fdr(fdr_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fds(fds_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.textio(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.vital_timing(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.vital_primitives(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.vpkg(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut4(lut4_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fd(fd_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fde(fde_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut3(lut3_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fdre(fdre_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.lut2(lut2_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.muxcy(muxcy_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.xorcy(xorcy_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.inv(inv_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.fdrse(fdrse_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ram16x1d(ram16x1d_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ram64x1s(ram64x1s_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.muxf5(muxf5_v)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ram32x1s(ram32x1s_v)
+# Loading work.prog_rom(low_level_definition)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.ramb16_s18(ramb16_s18_v)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace
+# .main_pane.signals.interior.cs

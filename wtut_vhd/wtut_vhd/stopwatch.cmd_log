@@ -1,0 +1,45 @@
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+netgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim stopwatch.ngc stopwatch_synthesis.v
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+netgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ar Structure -tm stopwatch -w -dir netgen/synthesis -ofmt vhdl -sim stopwatch.ngc stopwatch_synthesis.vhd
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+netgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim stopwatch.ngc stopwatch_synthesis.v
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+netgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ar Structure -tm stopwatch -w -dir netgen/synthesis -ofmt vhdl -sim stopwatch.ngc stopwatch_synthesis.vhd
+netgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm stopwatch -w -dir netgen/translate -ofmt vhdl -sim stopwatch.ngd stopwatch_translate.vhd
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+netgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm stopwatch -w -dir netgen/translate -ofmt vhdl -sim stopwatch.ngd stopwatch_translate.vhd
+map -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf
+trce -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -v 3 -l 3 -s 4 -xml stopwatch_preroute stopwatch_map.ncd -o stopwatch_preroute.twr stopwatch.pcf
+timingan -intstyle ise stopwatch_map.ncd stopwatch.pcf stopwatch_preroute.twx
+par -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf
+trce -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -v 3 -l 3 -s 4 -xml stopwatch stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf stopwatch.ucf
+par -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf
+trce -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -v 3 -l 3 -s 4 -xml stopwatch stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf stopwatch.ucf
+timingan -intstyle ise stopwatch.ncd stopwatch.pcf stopwatch.twx
+xst -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -ifn stopwatch.xst -ofn stopwatch.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -dd _ngo -nt timestamp -uc "stopwatch.ucf" -p xc3s200-ft256-4 "stopwatch.ngc" stopwatch.ngd
+map -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf
+par -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf
+trce -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -v 3 -l 3 -s 4 -xml stopwatch stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf stopwatch.ucf
+bitgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -f stopwatch.ut stopwatch.ncd
+bitgen -ise "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise" -intstyle ise -f stopwatch.ut stopwatch.ncd

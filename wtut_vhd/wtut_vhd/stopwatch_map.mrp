@@ -1,0 +1,258 @@
+Release 8.2i Map I.31
+Xilinx Mapping Report File for Design 'stopwatch'
+
+Design Information
+------------------
+Command Line   : C:\Xilinx\bin\nt\map.exe -ise
+C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/wtut_vhd.ise -intstyle ise -p
+xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -o stopwatch_map.ncd stopwatch.ngd
+stopwatch.pcf 
+Target Device  : xc3s200
+Target Package : ft256
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.34.32.1 $
+Mapped Date    : Fri Jan 19 13:17:01 2007
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+  Number of Slice Flip Flops:            48 out of   3,840    1%
+  Number of 4 input LUTs:               121 out of   3,840    3%
+Logic Distribution:
+  Number of occupied Slices:             83 out of   1,920    4%
+    Number of Slices containing only related logic:      83 out of      83 100%
+    Number of Slices containing unrelated logic:          0 out of      83   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         143 out of   3,840    3%
+    Number used as logic:               121
+    Number used as a route-thru:         22
+    Number used as Shift registers:       4
+  Number of bonded IOBs:                 15 out of     173    8%
+    IOB Flip Flops:                       9
+  Number of BUFGMUXs:                     3 out of       8   37%
+  Number of DCMs:                         1 out of       4   25%
+
+Total equivalent gate count for design:  8,612
+Additional JTAG gate count for IOBs:  720
+Peak Memory Usage:  137 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:243 - Logical network TIMECNT_1/N14 has no load.
+
+Section 3 - Informational
+-------------------------
+INFO:Map:110 - output buffer 'SEG_A_OBUF' driving design level port 'SEG_A' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_A_OBUF'.
+INFO:Map:110 - output buffer 'SEG_B_OBUF' driving design level port 'SEG_B' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_B_OBUF'.
+INFO:Map:110 - output buffer 'SEG_C_OBUF' driving design level port 'SEG_C' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_C_OBUF'.
+INFO:Map:110 - output buffer 'SEG_D_OBUF' driving design level port 'SEG_D' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_D_OBUF'.
+INFO:Map:110 - output buffer 'SEG_E_OBUF' driving design level port 'SEG_E' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_E_OBUF'.
+INFO:Map:110 - output buffer 'SEG_F_OBUF' driving design level port 'SEG_F' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_F_OBUF'.
+INFO:Map:110 - output buffer 'SEG_G_OBUF' driving design level port 'SEG_G' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_G_OBUF'.
+INFO:Map:110 - output buffer 'SEG_DP_OBUF' driving design level port 'SEG_DP' is
+   being pushed into module 'LEDCONTROL_1' to enable I/O register usage. The
+   buffer has been renamed as 'LEDCONTROL_1/SEG_DP_OBUF'.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs in the
+   schematic.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp
+   DCM1_1/DCM_INST/DCM1_1/DCM_INST, consult the device Interactive Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   5 block(s) removed
+  13 block(s) optimized away
+   1 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "TIMECNT_1/N14" is sourceless and has been removed.
+Unused block "ten_cnt1/GND" (ZERO) removed.
+Unused block "ten_cnt1/VCC" (ONE) removed.
+Unused block "ten_cnt2/GND" (ZERO) removed.
+Unused block "ten_cnt2/VCC" (ONE) removed.
+Unused block "TIMECNT_1/XST_VCC" (ONE) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		ten_cnt1/BU2/XST_GND
+VCC 		ten_cnt1/BU2/XST_VCC
+GND 		ten_cnt2/BU2/XST_GND
+VCC 		ten_cnt2/BU2/XST_VCC
+GND 		LEDCONTROL_1/XST_GND
+VCC 		LEDCONTROL_1/XST_VCC
+GND 		TIMECNT_1/XST_GND
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |             | Strength | Rate |              |          | Delay    |
++----------------------------------------------------------------------------------------------------------------------------------------+
+| AN<0>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          |          |
+| AN<1>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          |          |
+| AN<2>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          |          |
+| AN<3>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          |          |
+| CLK                                | IOB              | INPUT     | LVCMOS25    |          |      |              |          |          |
+| RESET                              | IOB              | INPUT     | LVCMOS25    |          |      |              |          |          |
+| SEG_A                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| SEG_B                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| SEG_C                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| SEG_D                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| SEG_DP                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| SEG_E                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| SEG_F                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| SEG_G                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          |          |
+| STRTSTOP                           | IOB              | INPUT     | LVCMOS25    |          |      | INFF1        |          | IFD      |
++----------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  Preserved Partitions:
+
+    Partition "/stopwatch"
+
+    Partition "/stopwatch/LEDCONTROL_1"
+
+
+  Implemented Partitions:
+
+    Partition "/stopwatch/TIMECNT_1":
+An upstream application reimplemented the Partition.
+
+-------------------------------
+
+Partition Resource Summary:
+---------------------------
+
+Partition "/stopwatch":
+  Logic Utilization:
+  Number of Slice Flip Flops:               21
+  Logic Distribution:
+    Number of occupied Slices:              44
+      Number of Slices containing only related logic:     44 out of     44 100%
+  Total Number of 4 input LUTs:             73
+    Number used as logic:                   62
+    Number used as route-thru:               7
+    Number used as Shift registers:          4
+  Number of bonded IOBs:                     7
+
+Partition "/stopwatch/LEDCONTROL_1":
+  Logic Utilization:
+  Number of Slice Flip Flops:               16
+  Logic Distribution:
+    Number of occupied Slices:              32
+      Number of Slices containing only related logic:     32 out of     32 100%
+  Total Number of 4 input LUTs:             62
+    Number used as logic:                   47
+    Number used as route-thru:              15
+  Number of bonded IOBs:                     8
+
+Partition "/stopwatch/TIMECNT_1":
+  Logic Utilization:
+  Number of Slice Flip Flops:               11
+  Logic Distribution:
+    Number of occupied Slices:               7
+      Number of Slices containing only related logic:      7 out of      7 100%
+  Total Number of 4 input LUTs:             12
+    Number used as logic:                   12
+
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+
+Section 10 - Modular Design Summary
+-----------------------------------
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings

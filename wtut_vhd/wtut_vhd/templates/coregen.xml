@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="ten_cnt" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+ten_cnt YourInstanceName (
+    .clk(clk),
+    .ce(ce),
+    .ainit(ainit),
+    .thresh0(thresh0),
+    .q(q));
+
+ 
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="ten_cnt" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component ten_cnt
+    port (
+    clk: IN std_logic;
+    ce: IN std_logic;
+    ainit: IN std_logic;
+    thresh0: OUT std_logic;
+    q: OUT std_logic_VECTOR(3 downto 0));
+end component;
+
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : ten_cnt
+        port map (
+            clk =&gt; clk,
+            ce =&gt; ce,
+            ainit =&gt; ainit,
+            thresh0 =&gt; thresh0,
+            q =&gt; q);
+ 
+		</Template>
+	</Folder>
+</RootFolder>

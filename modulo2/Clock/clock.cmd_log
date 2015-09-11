@@ -1,0 +1,10 @@
+xst -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s200-ft256-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -e 3 -l 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+xst -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-ft256-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx/ISEexamples/modulo2/Clock/clock.ise" -intstyle ise -e 3 -l 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf

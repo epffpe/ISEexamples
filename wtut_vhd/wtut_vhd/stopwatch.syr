@@ -1,0 +1,509 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: stopwatch.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "stopwatch.prj"
+Input Format                       : mixed
+Synthesis Constraint File          : "C:/Xilinx/ISEexamples/wtut_vhd/stopwatch.xcf"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "stopwatch"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : stopwatch
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : YES
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : stopwatch.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/dcm1.vhd" in Library work.
+Architecture behavioral of Entity dcm1 is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/hex2led.vhd" in Library work.
+Architecture behavioral of Entity hex2led is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/debounce.vhd" in Library work.
+Architecture debounce_arch of Entity debounce is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/time_cnt.vhd" in Library work.
+Architecture time_cnt_arch of Entity time_cnt is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/statmach.vhd" in Library work.
+Architecture statmach_arch of Entity statmach is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/led_control.vhd" in Library work.
+Architecture led_control_arch of Entity led_control is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/clk_div_262k.vhd" in Library work.
+Architecture clk_div_262k_arch of Entity clk_div_262k is up to date.
+Compiling vhdl file "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/stopwatch.vhd" in Library work.
+Architecture stopwatch_arch of Entity stopwatch is up to date.
+Compiling verilog file "ten_cnt.v" in library work
+Module <ten_cnt> compiled
+No errors in compilation
+Analysis of file <"stopwatch.prj"> succeeded.
+ 
+
+Reading constraint file C:/Xilinx/ISEexamples/wtut_vhd/stopwatch.xcf.
+XCF parsing done.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <stopwatch> in library <work> (architecture <stopwatch_arch>).
+
+Analyzing hierarchy for entity <dcm1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <hex2led> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <debounce_arch>).
+
+Analyzing hierarchy for entity <time_cnt> in library <work> (architecture <time_cnt_arch>).
+
+Analyzing hierarchy for entity <statmach> in library <work> (architecture <statmach_arch>).
+
+Analyzing hierarchy for entity <led_control> in library <work> (architecture <led_control_arch>).
+
+Analyzing hierarchy for entity <clk_div_262k> in library <work> (architecture <clk_div_262k_arch>).
+
+Building hierarchy successfully finished.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Design Repository: return true for module <time_cnt>
+Analyzing Entity <time_cnt> in library <work> (Architecture <time_cnt_arch>).
+Entity <time_cnt> analyzed. Unit <time_cnt> generated.
+
+
+Reading constraint file C:/Xilinx/ISEexamples/wtut_vhd/stopwatch.xcf.
+WARNING:Xst:44 - Unknown signal with name: CLK.
+WARNING:Xst:44 - Unknown signal with name: AN<0>.
+WARNING:Xst:44 - Unknown signal with name: AN<1>.
+WARNING:Xst:44 - Unknown signal with name: AN<2>.
+WARNING:Xst:44 - Unknown signal with name: AN<3>.
+WARNING:Xst:44 - Unknown signal with name: RESET.
+WARNING:Xst:44 - Unknown signal with name: SEG_A.
+WARNING:Xst:44 - Unknown signal with name: SEG_B.
+WARNING:Xst:44 - Unknown signal with name: SEG_C.
+WARNING:Xst:44 - Unknown signal with name: SEG_D.
+WARNING:Xst:44 - Unknown signal with name: SEG_E.
+WARNING:Xst:44 - Unknown signal with name: SEG_F.
+WARNING:Xst:44 - Unknown signal with name: SEG_G.
+WARNING:Xst:44 - Unknown signal with name: SEG_DP.
+WARNING:Xst:44 - Unknown signal with name: STRTSTOP.
+XCF parsing done.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Unit <stopwatch> is up to date.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/stopwatch.vhd".
+    Summary:
+	no macro.
+Unit <stopwatch> loaded.
+
+
+Unit <dcm1> is up to date.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/dcm1.vhd".
+    Summary:
+	no macro.
+Unit <dcm1> loaded.
+
+
+Unit <hex2led> is up to date.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/hex2led.vhd".
+    Summary:
+	inferred   1 ROM(s).
+Unit <hex2led> loaded.
+
+
+Unit <debounce> is up to date.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/debounce.vhd".
+    Summary:
+	inferred   3 D-type flip-flops).
+Unit <debounce> loaded.
+
+
+Unit <statmach> is up to date.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/statmach.vhd".
+    Summary:
+	inferred   1 Finite State Machine(s).
+	no macro.
+Unit <statmach> loaded.
+
+
+Unit <led_control> is up to date.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/led_control.vhd".
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flops).
+	inferred  16 Multiplexer(s).
+Unit <led_control> loaded.
+
+
+Unit <clk_div_262k> is up to date.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/wtut_vhd/clk_div_262k.vhd".
+    Summary:
+	inferred  52 D-type flip-flops).
+Unit <clk_div_262k> loaded.
+
+
+Unit <BUFG> is up to date.
+    Summary:
+	no macro.
+Unit <BUFG> loaded.
+
+
+Unit <IBUFG> is up to date.
+    Summary:
+	no macro.
+Unit <IBUFG> loaded.
+
+
+Unit <DCM> is up to date.
+    Summary:
+	no macro.
+Unit <DCM> loaded.
+
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <time_cnt>.
+    Related source file is "C:/Xilinx/ISEexamples/wtut_vhd/time_cnt.vhd".
+    Found 4-bit up counter for signal <mins_cnt>.
+    Found 4-bit up counter for signal <ones_cnt>.
+    Found 3-bit up counter for signal <tens_cnt>.
+    Summary:
+	inferred   3 Counter(s).
+Unit <time_cnt> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 6
+ 16x7-bit ROM                                          : 5
+ 4x4-bit ROM                                           : 1
+# Counters                                             : 4
+ 16-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 2
+# Registers                                            : 8
+ 1-bit register                                        : 3
+ 16-bit register                                       : 3
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 2
+ 8-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx.
+Reading module "ten_cnt.ngo" ( "ten_cnt.ngo" unchanged since last run )...
+Reading core <ten_cnt_c_counter_binary_v8_0_xst_1.ngc>.
+Loading core <ten_cnt_c_counter_binary_v8_0_xst_1> for timing and area information for instance <BU2>.
+Loading core <ten_cnt> for timing and area information for instance <ten_cnt1>.
+Loading core <ten_cnt> for timing and area information for instance <ten_cnt2>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 6
+ 16x7-bit ROM                                          : 5
+ 4x4-bit ROM                                           : 1
+# Counters                                             : 4
+ 16-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 2
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+# Multiplexers                                         : 2
+ 8-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <time_cnt> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Annotating constraints using XCF file 'C:/Xilinx/ISEexamples/wtut_vhd/stopwatch.xcf'
+XCF parsing done.
+Found area constraint ratio of 100 (+ 5) on block stopwatch, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 45
+ Flip-Flops                                            : 45
+# Shift Registers                                      : 4
+ 15-bit shift register                                 : 3
+ 3-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  Preserved Partitions:
+
+    Partition "/stopwatch"
+
+    Partition "/stopwatch/LEDCONTROL_1"
+
+
+  Implemented Partitions:
+
+    Partition "/stopwatch/TIMECNT_1":
+HDL source file(s) were modified.
+
+-------------------------------
+
+
+Partition NGC Files
+-------------------------------
+
+    Partition "/stopwatch":
+      NGC File: stopwatch.ngc
+
+    Partition "/stopwatch/LEDCONTROL_1":
+      NGC File: LEDCONTROL_1#led_control.ngc
+
+    Partition "/stopwatch/TIMECNT_1":
+      NGC File: TIMECNT_1#time_cnt.ngc
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : stopwatch.ngr
+RTL Output File Name               : TIMECNT_1_time_cnt.ngr
+Top Level Output File Name         : stopwatch
+Output File Name                   : TIMECNT_1#time_cnt.ngc
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 212
+#      GND                         : 5
+#      INV                         : 2
+#      LUT1                        : 24
+#      LUT2                        : 5
+#      LUT3                        : 48
+#      LUT4                        : 61
+#      MUXCY                       : 21
+#      MUXF5                       : 19
+#      VCC                         : 4
+#      XORCY                       : 23
+# FlipFlops/Latches                : 57
+#      FD                          : 31
+#      FDC                         : 3
+#      FDCE                        : 19
+#      FDR                         : 4
+# Shift Registers                  : 4
+#      SRL16                       : 4
+# Clock Buffers                    : 3
+#      BUFG                        : 3
+# IO Buffers                       : 15
+#      IBUF                        : 2
+#      IBUFG                       : 1
+#      OBUF                        : 12
+# DCMs                             : 1
+#      DCM                         : 1
+# Others                           : 1
+#      TIMESPEC                    : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                      80  out of   1920     4%  
+ Number of Slice Flip Flops:            57  out of   3840     1%  
+ Number of 4 input LUTs:               144  out of   3840     3%  
+    Number used as logic:              140
+    Number used as Shift registers:      4
+ Number of IOs:                         15
+ Number of bonded IOBs:                 15  out of    173     8%  
+ Number of GCLKs:                        3  out of      8    37%  
+ Number of DCMs:                         1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                       | Load  |
+-----------------------------------+---------------------------------------------+-------+
+CLKDIV262K_1/temp_div_262144_31    | BUFG                                        | 25    |
+CLK                                | DCM1_1/DCM_INST:CLKFX                       | 3     |
+CLKDIV262K_1/div_32_15             | NONE(CLKDIV262K_1/Mshreg_div_1024_15)       | 3     |
+CLKDIV262K_1/div_1024_15           | NONE(CLKDIV262K_1/div_32768_0)              | 3     |
+CLKDIV262K_1/div_32768_15          | NONE(CLKDIV262K_1/Mshreg_temp_div_262144_31)| 3     |
+CLK                                | DCM1_1/DCM_INST:CLK0                        | 24    |
+-----------------------------------+---------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+---------------------------+-------+
+Control Signal                     | Buffer(FF name)           | Load  |
+-----------------------------------+---------------------------+-------+
+rst_int(STATEMACH_1/sreg_Out01:O)  | NONE(TIMECNT_1/tens_cnt_0)| 19    |
+RESET                              | IBUF                      | 3     |
+-----------------------------------+---------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.591ns (Maximum Frequency: 104.264MHz)
+   Minimum input arrival time before clock: 4.677ns
+   Maximum output required time after clock: 9.937ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Timing constraint: TS_CLK = PERIOD TIMEGRP "CLK_GROUP" 20 nS HIGH 10 nS
+  Clock period: 5.204ns (frequency: 192.169MHz)
+  Total number of paths / destination ports: 187 / 27
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  14.796ns
+  Source:               LEDCONTROL_1/cnt_14 (FF)
+  Destination:          LEDCONTROL_1/SEVEN_SEG_0 (FF)
+  Data Path Delay:      5.204ns (Levels of Logic = 3)
+  Source Clock:         CLK rising at 0.000ns
+  Destination Clock:    CLK rising at 20.000ns
+
+  Data Path: LEDCONTROL_1/cnt_14 (FF) to LEDCONTROL_1/SEVEN_SEG_0 (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              37   0.720   1.950  cnt_14 (cnt_14)
+     LUT3:I2->O            1   0.551   0.000  cnt<14> (N21)
+     MUXF5:I1->O           1   0.360   0.869  Mmux_d0_f5 (d0<0>)
+     LUT4:I2->O            1   0.551   0.000  _mux0001<0>1 (_mux0001<0>)
+     FD:D                      0.203          SEVEN_SEG_0
+    ----------------------------------------
+    Total                      5.204ns (2.385ns logic, 2.819ns route)
+                                       (45.8% logic, 54.2% route)
+
+=========================================================================
+CPU : 15.89 / 16.16 s | Elapsed : 16.00 / 16.00 s
+ 
+--> 
+
+Total memory usage is 141664 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,28 @@
+Release 8.2i - netgen I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -s 4 -pcf counter.pcf -sdf_anno true
+-sdf_path netgen/par -insert_glbl true -w -dir netgen/par -ofmt verilog -sim
+counter.ncd counter_timesim.v  
+
+Read and Annotate design 'counter.ncd' ...
+Loading device for application Rf_Device from file '3s200.nph' in environment
+C:\Xilinx.
+   "counter" is an NCD, version 3.1, device xc3s200, package ft256, speed -4
+Loading constraints from 'counter.pcf'...
+The speed grade (-4) differs from the speed grade specified in the .ncd file
+(-4).
+The number of routable networks is 8
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog SDF file 'netgen\par\counter_timesim.sdf' ...
+Writing Verilog netlist file
+'C:\Xilinx\ISEexamples\modulo2\Tutorial\netgen\par\counter_timesim.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 104800 kilobytes

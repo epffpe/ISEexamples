@@ -1,0 +1,114 @@
+--------------------------------------------------------------------------------
+Release 8.2.02i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\bin\nt\trce.exe -ise
+U:/practicas/tutorial modulo2/tutorial/tutorial.ise -intstyle ise -e 3 -l 3 -s
+4 -xml counter counter.ncd -o counter.twr counter.pcf -ucf counter.ucf
+
+Design file:              counter.ncd
+Physical constraint file: counter.pcf
+Device,speed:             xc3s200,-4 (PRODUCTION 1.39 2006-07-07)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: TS_CLOCK = PERIOD TIMEGRP "CLOCK" 40 ns HIGH 50%;
+
+ 14 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   2.654ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: OFFSET = IN 10 ns BEFORE COMP "CLOCK";
+
+ 3 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum allowable offset is   1.538ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: OFFSET = OUT 10 ns AFTER COMP "CLOCK";
+
+ 4 items analyzed, 0 timing errors detected.
+ Minimum allowable offset is   9.476ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLOCK
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+DIRECTION   |    1.538(R)|    0.293(R)|CLOCK_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLOCK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+COUNT_OUT<0>|    8.465(R)|CLOCK_BUFGP       |   0.000|
+COUNT_OUT<1>|    9.476(R)|CLOCK_BUFGP       |   0.000|
+COUNT_OUT<2>|    9.475(R)|CLOCK_BUFGP       |   0.000|
+COUNT_OUT<3>|    8.405(R)|CLOCK_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLOCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK          |    2.654|         |         |         |
+---------------+---------+---------+---------+---------+
+
+OFFSET = OUT 10 ns AFTER COMP "CLOCK";
+Largest slack: 1.595 ns; Smallest slack: 0.524 ns; Relative Skew: 1.071 ns; 
+-----------------------------------------------+-------------+-------------+
+PAD                                            |    Slack    |Relative Skew|
+-----------------------------------------------+-------------+-------------+
+COUNT_OUT<0>                                   |        1.535|        0.060|
+COUNT_OUT<1>                                   |        0.524|        1.071|
+COUNT_OUT<2>                                   |        0.525|        1.070|
+COUNT_OUT<3>                                   |        1.595|        0.000|
+-----------------------------------------------+-------------+-------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 21 paths, 0 nets, and 25 connections
+
+Design statistics:
+   Minimum period:   2.654ns   (Maximum frequency: 376.790MHz)
+   Minimum input required time before clock:   1.538ns
+   Minimum output required time after clock:   9.476ns
+
+
+Analysis completed Thu Dec 14 21:08:39 2006
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 117 MB
+
+
+

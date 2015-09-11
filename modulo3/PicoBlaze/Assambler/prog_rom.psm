@@ -1,0 +1,43 @@
+				CONSTANT Port_A, 00		;ENTRADA SWITCHES
+				CONSTANT UART_read_port, 01	;ENTRADA UART
+				CONSTANT UART_status_port, 02	;ENTRADA ESTADO UART
+				cONSTANT UART_write_port, 01	;Salida UART
+				CONSTANT tx_half_full, 01	;Transmisor	half full - bit0
+				CONSTANT tx_full, 02		;  FIFO		     full - bit1
+				CONSTANT rx_half_full, 04	;Receptor	half full - bit2
+				CONSTANT rx_full, 08		;h(08)=b(00001000)   full - bit3
+				CONSTANT rx_data_present, 10	;	   data present	  - bit4
+				;
+				;Registros Utilizados
+				;
+				NAMEREG sF, UART_data
+				NAMEREG sE, UART_status
+				NAMEREG s0, LEDS
+				;
+		Inicio:		LOAD LEDS, 00
+				LOAD UART_status, 00
+				LOAD UART_data, 00
+				CALL loop_leds
+				CALL read_from_UART
+				;CALL send_to_UART
+				JUMP Inicio
+				;
+			 	;
+		loop_leds:	INPUT LEDS, Port_A
+				OUTPUT LEDS, Port_A
+				RETURN
+				;
+		read_from_UART:	INPUT UART_status, UART_status_port
+				TEST UART_status, rx_data_present
+				JUMP NZ, read_character
+				RETURN
+		read_character: INPUT UART_data, UART_read_port
+				CALL send_to_UART
+				RETURN
+				;
+		send_to_UART:	INPUT UART_status, UART_status_port
+				TEST UART_status, tx_full
+				JUMP Z, UART_write
+				RETURN
+		UART_write:	OUTPUT UART_data, UART_write_port
+				RETURN

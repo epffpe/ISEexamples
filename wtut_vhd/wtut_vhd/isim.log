@@ -1,0 +1,27 @@
+ command line:
+   ./stopwatch_tb_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1355
+
+Thu Jan 18 11:54:13 2007
+
+Total Line Count = 1954
+
+ Elaboration time 0.03125 sec.
+
+ Estimate current memory usage 37.847 Meg. 
+
+ Total signals 503
+ Total nets 477
+ Total signal drivers 250
+ Total blocks 96
+ Total primitive blocks 69
+ Total processes 214
+ntrace select -o on -m / -l this 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+WARNING:Simulator:29 - at 170.000 ns(9): Warning: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).

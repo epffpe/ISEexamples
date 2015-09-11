@@ -1,0 +1,5 @@
+# begin LFP file U:\practicas\tutorial modulo2\tutorial\counter.lfp
+designfile counter.vhd
+parttype xc3s200-4-ft256
+bus_delimiter 8;
+set_busdelim_onsave 1;

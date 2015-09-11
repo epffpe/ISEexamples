@@ -1,0 +1,63 @@
+m255
+13
+cModel Technology
+dC:\Xilinx\ISEexamples\modulo2\Tutorial
+Ecounter
+w1169223010
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fcounter.vhd
+l0
+L30
+Vb]]mW0_P=U0_25=2liVBN2
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work counter b]]mW0_P=U0_25=2liVBN2
+l40
+L36
+VG^DbhfGQ35h8T[RS^z<T<1
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Ecounter_tb_vhd
+w1169256423
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fcounter_tb.vhd
+l0
+L34
+Vf_7VfIB]?@5=^_T96TH833
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavior
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work counter_tb_vhd f_7VfIB]?@5=^_T96TH833
+l55
+L37
+V;Z9l>1>:]jPb^4_l6YA[h1
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+M1 ieee numeric_std
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000

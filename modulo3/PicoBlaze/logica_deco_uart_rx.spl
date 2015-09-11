@@ -1,0 +1,7 @@
+[Inputs]
+clk
+read_strobe
+=port_id[7:0]=
+[Outputs]
+read
+[BiDir]

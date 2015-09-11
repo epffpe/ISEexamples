@@ -1,0 +1,259 @@
+m255
+13
+cModel Technology
+dC:\Xilinx\ISEexamples\wtut_vhd\wtut_vhd
+Eclk_div_262k
+w1153150146
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fclk_div_262k.vhd
+l0
+L16
+V5?^d_UO56UR;4=5Z<Fo[l1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Aclk_div_262k_arch
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work clk_div_262k 5?^d_UO56UR;4=5Z<Fo[l1
+l27
+L21
+V6D5DL3mhzbgPdSkzT4_kI3
+OX;C;6.1e;31
+31
+M1 ieee std_logic_1164
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Edcm1
+w1169221158
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fdcm1.vhd
+l0
+L28
+Vn6GK8OgJL6_X@La1Gd^:63
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work dcm1 n6GK8OgJL6_X@La1Gd^:63
+l92
+L37
+VnJ__VY?Z`_in]WSc9oY731
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Edebounce
+w1153150156
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fdebounce.vhd
+l0
+L15
+VjF6?;GiT;;KX9Vblg3[eI3
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Adebounce_arch
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work debounce jF6?;GiT;;KX9Vblg3[eI3
+l25
+L21
+VgJMi<lDFB_SkYEczO4]A?2
+OX;C;6.1e;31
+31
+M1 ieee std_logic_1164
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+vglbl
+I3:?kT^^lhXd;1Z[RE88VK3
+VnN]4Gon>inod6>M^M2[SV1
+w1147885748
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+VnN]4Gon>inod6>M^M2[SV1
+OX;L;6.1e;31
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+Ehex2led
+w1168575346
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fhex2led.vhd
+l0
+L30
+V_C291:W6z7[2OWLm;0:l11
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work hex2led _C291:W6z7[2OWLm;0:l11
+l37
+L35
+VLC99c?fm`Am3zYmMaDUV82
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Eled_control
+w1153150202
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fled_control.vhd
+l0
+L16
+V:jb9Z`o[a?D<l[BDUh5oW0
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Aled_control_arch
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work led_control :jb9Z`o[a?D<l[BDUh5oW0
+l33
+L27
+V1[SVldoZlnhGlD?ddICcD0
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_unsigned
+M1 ieee std_logic_arith
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Estatmach
+w1153150726
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fstatmach.vhd
+l0
+L15
+ViN8cgE?H?BS8:=7CDCNld1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Astatmach_arch
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work statmach iN8cgE?H?BS8:=7CDCNld1
+l35
+L24
+VeohJA>FFT?U7IH>9`bJf`3
+OX;C;6.1e;31
+31
+M1 ieee std_logic_1164
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Estopwatch
+w1168579566
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fstopwatch.vhd
+l0
+L15
+V0nWiUmS53ClZ<:mXX0MOo1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Astopwatch_arch
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work stopwatch 0nWiUmS53ClZ<:mXX0MOo1
+l192
+L34
+VW0@fPn6I`n^WB_B<iRLYL0
+OX;C;6.1e;31
+31
+M1 ieee std_logic_1164
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Estopwatch_tb_vhd
+w1110468320
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+F../stopwatch_tb.vhd
+l0
+L34
+VzL@ZRKn9^;OeMPIIN40<N3
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavior
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work stopwatch_tb_vhd zL@ZRKn9^;OeMPIIN40<N3
+l73
+L37
+V`oizFKazXUegjdETO4SI;1
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+M1 ieee numeric_std
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+vten_cnt
+IfEBYlNL6E5M:XK2cI>M421
+VQ>ZCTAGA;OLzk=ZHRJ9H73
+w1168575996
+Ften_cnt.v
+L0 37
+VQ>ZCTAGA;OLzk=ZHRJ9H73
+OX;L;6.1e;31
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+Etime_cnt
+w1169212591
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+F../time_cnt.vhd
+l0
+L16
+V`m7eVAYQS[gNG8f:<X;cY0
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Atime_cnt_arch
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work time_cnt `m7eVAYQS[gNG8f:<X;cY0
+l30
+L25
+VW?5H96lEHB1<azOleOGT?2
+OX;C;6.1e;31
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_unsigned
+M1 ieee std_logic_arith
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000

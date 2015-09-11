@@ -1,0 +1,22 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD" in Library work.
+Entity <prog_rom> compiled.
+Entity <prog_rom> (Architecture <low_level_definition>) compiled.
+CPU : 0.17 / 0.42 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 111400 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

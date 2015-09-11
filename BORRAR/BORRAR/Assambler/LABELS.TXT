@@ -1,0 +1,8 @@
+Table of addresses and their specified labels.
+
+000  Inicio
+008  loop_leds
+00B  read_from_UART
+00F  read_character
+014  send_to_UART
+018  UART_write

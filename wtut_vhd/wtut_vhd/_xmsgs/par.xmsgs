@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Place" num="831" delta="unknown" ><arg fmt="%d" index="1">4</arg> sites were unavailable during the placement phase because they were already used by routing within preserved Partitions. There are several strategies that may help the Placer find a solution. To allow the Placer to use these sites, change the preservation property on one or more Partitions from preserve=routing to preserve=placement. If the problem persists, then careful floorplanning can minimize the number of sites occupied by routing.
+</msg>
+
+<msg type="info" file="Timing" num="2761" delta="unknown" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+</messages>

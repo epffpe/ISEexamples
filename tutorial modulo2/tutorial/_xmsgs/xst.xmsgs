@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3338" delta="unknown" >&quot;<arg fmt="%s" index="1">U:\practicas\tutorial modulo2\tutorial\counter_vhdl.prj</arg>&quot; Line <arg fmt="%d" index="2">1</arg>.  Bad file name in project file: <arg fmt="%s" index="3">Env Variable \practicas\tutorial modulo2\tutorial\counter.vhd not defined.</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/counter</arg> is now defined in a different file: was <arg fmt="%s" index="2">U:/practicas/tutorial modulo2/tutorial/counter.vhd</arg>, now is <arg fmt="%s" index="3">//naos/dcse0647$/practicas/tutorial modulo2/tutorial/counter.vhd</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/counter/Behavioral</arg> is now defined in a different file: was <arg fmt="%s" index="2">U:/practicas/tutorial modulo2/tutorial/counter.vhd</arg>, now is <arg fmt="%s" index="3">//naos/dcse0647$/practicas/tutorial modulo2/tutorial/counter.vhd</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3386" delta="unknown" >Could not update dependency data base <arg fmt="%s" index="1">xst/work/hdpdeps.ref</arg> for library <arg fmt="%s" index="2">work</arg>. Renaming temporarily saved database file &quot;<arg fmt="%s" index="3">xst/work/xil_2216_5</arg>&quot; to <arg fmt="%s" index="4">xst/work/hdpdeps.ref</arg> failed with message : &apos;<arg fmt="%s" index="5">No such file or directory</arg>&apos;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3386" delta="unknown" >Could not update dependency data base <arg fmt="%s" index="1">xst/work/hdpdeps.ref</arg> for library <arg fmt="%s" index="2">work</arg>. Renaming temporarily saved database file &quot;<arg fmt="%s" index="3">xst/work/xil_2216_6</arg>&quot; to <arg fmt="%s" index="4">xst/work/hdpdeps.ref</arg> failed with message : &apos;<arg fmt="%s" index="5">No such file or directory</arg>&apos;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3386" delta="unknown" >Could not update dependency data base <arg fmt="%s" index="1">xst/work/hdpdeps.ref</arg> for library <arg fmt="%s" index="2">work</arg>. Renaming temporarily saved database file &quot;<arg fmt="%s" index="3">xst/work/xil_2216_7</arg>&quot; to <arg fmt="%s" index="4">xst/work/hdpdeps.ref</arg> failed with message : &apos;<arg fmt="%s" index="5">No such file or directory</arg>&apos;.
+</msg>
+
+</messages>

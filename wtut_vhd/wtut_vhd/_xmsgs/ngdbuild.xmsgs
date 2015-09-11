@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="XdmHelpers" num="793" delta="unknown" >The TNM &quot;<arg fmt="%s" index="1">CLK</arg>&quot; drives the <arg fmt="%s" index="2">CLKIN</arg> pin of <arg fmt="%s" index="3">DCM</arg> &quot;<arg fmt="%s" index="4">DCM1_1/DCM_INST</arg>&quot;. This TNM cannot be traced through the <arg fmt="%s" index="5">DCM</arg> because it is not used exclusively by one PERIOD specification. This TNM is used in the following user groups and/or specifications:
+</msg>
+
+<msg type="warning" file="XdmHelpers" num="625" delta="unknown" >No instances driven from the following signals or pins are valid for inclusion in TNM group &quot;<arg fmt="%s" index="1">CLK</arg>&quot;. A TNM property on a pin or signal marks only the flip-flops, latches and/or RAMs which are directly or indirectly driven by that pin or signal.
+</msg>
+
+<msg type="info" file="XdmHelpers" num="851" delta="unknown" >TNM &quot;<arg fmt="%s" index="1">CLK_GROUP</arg>&quot;, used in period specification &quot;<arg fmt="%s" index="2">TS_CLK</arg>&quot;, was traced into <arg fmt="%s" index="3">DCM</arg> instance &quot;<arg fmt="%s" index="4">DCM1_1/DCM_INST</arg>&quot;. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="5">DCM</arg> output(s):
+</msg>
+
+<msg type="warning" file="XdmHelpers" num="644" delta="unknown" >No appropriate elements were found for the TNM group &quot;<arg fmt="%s" index="1">CLK</arg>&quot;. This group has been removed from the design.
+</msg>
+
+</messages>

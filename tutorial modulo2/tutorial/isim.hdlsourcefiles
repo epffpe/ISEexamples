@@ -1,0 +1,15 @@
+J:/I.33/rtf/verilog/src/simprims/X_ZERO.v
+J:/I.33/rtf/verilog/src/simprims/X_ONE.v
+J:/I.33/rtf/verilog/src/simprims/X_SFF.v
+J:/I.33/rtf/verilog/src/simprims/X_FF.v
+J:/I.33/rtf/verilog/src/simprims/X_LUT4.v
+J:/I.33/rtf/verilog/src/simprims/X_MUX2.v
+J:/I.33/rtf/verilog/src/simprims/X_INV.v
+J:/I.33/rtf/verilog/src/simprims/X_BUFGMUX.v
+J:/I.33/rtf/verilog/src/simprims/X_OBUF.v
+J:/I.33/rtf/verilog/src/simprims/X_OPAD.v
+J:/I.33/rtf/verilog/src/simprims/X_BUF.v
+J:/I.33/rtf/verilog/src/simprims/X_IPAD.v
+//naos/dcse0647$/practicas/tutorial modulo2/tutorial/netgen/par/counter_timesim.v
+D:/Xilinx/verilog/src/glbl.v
+U:/practicas/tutorial modulo2/tutorial/counter_tbw.vhw

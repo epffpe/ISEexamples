@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">115</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibufg_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">116</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">bufg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">119</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">120</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">119</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">120</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">119</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">120</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">119</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">120</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">obuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo2/Clock/clock.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ibuf_lvcmos33</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">high</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">low</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">pb&lt;3:1&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sw</arg>&gt; is assigned but never used.
+</msg>
+
+</messages>

@@ -1,0 +1,27 @@
+ command line:
+   ./counter_tbw_isim_par.exe
+     -sdfmax  netgen/par/counter_timesim.sdf
+     -sdfroot  /UUT
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1746
+
+Fri Jan 19 17:43:25 2007
+
+Total Line Count = 945
+
+ Elaboration time 0.03125 sec.
+
+ Estimate current memory usage 38.8301 Meg. 
+
+ Total signals 272
+ Total nets 150
+ Total signal drivers 151
+ Total blocks 58
+ Total primitive blocks 42
+ Total processes 203
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

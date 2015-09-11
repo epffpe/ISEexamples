@@ -1,0 +1,21 @@
+This message has been read from the XCF02S configuration PROM. It was
+stored in the free space after the Spartan-3 configuration bitstream.
+Clearly any information could be stored in this way including text messages, 
+version and serial numbers, product codes, DSP filter coefficients and 
+programs for processors, without the requirement for additional components.
+
+To discover how to implement this in your own designs, an application
+note (XAPP694) is available together with a design macro and the software 
+utility which appends your unique data to the configuration PROM file.
+Alternatively you can contact the author directly via email 
+(stephan.neuhold@xilinx.com)who will be happy to discuss your application.
+
+In this demonstration, the KCPSM3 variant of PicoBlaze is used as the 
+controller for all the functions you can perform. The PROM reader macro is
+used as a simple peripheral to accelerate the access rate to this message.
+Although this simple demonstration accesses only one data set, the PROM 
+could be used to store many data sets of various lengths.  PicoBlaze would 
+be well suited to manage the retrieval of each data set as required. 
+
+PicoBlaze is available at www.xilinx.com/picoblaze or directly from the 
+author via email (ken.chapman@xilinx.com).

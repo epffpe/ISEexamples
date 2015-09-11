@@ -1,0 +1,66 @@
+m255
+13
+cModel Technology
+dC:\Xilinx\ISEexamples\modulo2\Clock
+Eclock
+w1171454588
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fclock.vhd
+l0
+L65
+VEkV:nhS;]Kf4G;HQ:;gXV1
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Aarch_clock
+DP unisim vcomponents >dDIbU^8C6RcK`FLfSTHP3
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work clock EkV:nhS;]Kf4G;HQ:;gXV1
+l109
+L75
+V69YXjLH@;XTOY2GJPE]LO3
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+M1 unisim vcomponents
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Eclock_tb_vhd
+w1171665286
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+Fclock_tb.vhd
+l0
+L34
+Vn@j[j^Cebh7ITf3P_l0zS0
+OX;C;6.1e;31
+31
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Abehavior
+DP ieee numeric_std SaR;@VQT[6TS:VMJ;OeA30
+DP ieee std_logic_arith 8ROOKc>cMY[SbKKTiA41[3
+DP ieee std_logic_unsigned UQ2?7D@8LJXmDo0Vj>ZmV2
+DP ieee std_logic_1164 TPE2^PHV59jzFVg?266Ke1
+DE work clock_tb_vhd n@j[j^Cebh7ITf3P_l0zS0
+l61
+L37
+VS;eU51`5An0000i@MTGNW3
+OX;C;6.1e;31
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+M1 ieee numeric_std
+o-explicit -93 -O0
+tExplicit 1 GenerateLoopIterationMax 100000

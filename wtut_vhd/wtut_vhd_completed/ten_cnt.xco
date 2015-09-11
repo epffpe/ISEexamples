@@ -1,0 +1,50 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = C:\InDepthTutorial\wtut_vhd
+SET speedgrade = -4
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc3s200
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ft256
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = spartan3
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Binary_Counter family Xilinx,_Inc. 9.0
+# END Select
+# BEGIN Parameters
+CSET output_width=4
+CSET aclr=false
+CSET ce=true
+CSET ainit_value=0
+CSET count_mode=UP
+CSET async_threshold_output=true
+CSET increment_value=1
+CSET load=false
+CSET sync_threshold_output=false
+CSET cycle_early_threshold_output=true
+CSET component_name=ten_cnt
+CSET syncctrlpriority=Reset_Overrides_Set
+CSET sset=false
+CSET restrict_count=true
+CSET ainit=true
+CSET sclr=false
+CSET load_ce_priority=CE_Overrides_Load
+CSET final_count_value=9
+CSET sinit_value=0
+CSET aset=false
+CSET sync_ce_priority=Sync_Overrides_CE
+CSET threshold_value=1
+CSET sinit=false
+# END Parameters
+GENERATE
+

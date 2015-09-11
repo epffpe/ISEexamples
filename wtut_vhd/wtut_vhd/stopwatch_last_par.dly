@@ -1,0 +1,1013 @@
+Release 8.2i - reportgen I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+Fri Jan 19 12:26:16 2007
+
+File: stopwatch_last_par.dly
+
+ The 20 worst nets by delay are:
++-----------------+-----------+
+| Max Delay       | Netname   |
++-----------------+-----------+
+   4.766            RESET_IBUF
+   3.484            locked
+   3.336            LEDCONTROL_1/cnt<14>
+   2.878            LEDCONTROL_1/cnt<15>
+   2.720            DEBOUNCE_1/int1
+   2.575            hex2led_int3<3>
+   2.450            LEDCONTROL_1/_mux0001<2>
+   2.444            LEDCONTROL_1/_mux0001<6>
+   2.420            CLKDIV262K_1/temp_div_262144_31
+   2.306            LEDCONTROL_1/_mux0001<4>
+   2.295            LEDCONTROL_1/_mux0001<1>
+   2.246            hex2led_int4<1>
+   2.129            hex2led_int1<1>
+   2.102            CLKDIV262K_1/div_1024<15>
+   2.102            CLKDIV262K_1/div_32768<15>
+   2.085            LEDCONTROL_1/_mux0001<7>
+   2.000            LEDCONTROL_1/_mux0001<0>
+   1.947            N11
+   1.939            hex2led_int3<0>
+   1.864            hex2led_int1<2>
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+AN_0_OBUF
+   LEDCONTROL_1/AN<3>.Y
+         0.726  AN<0>.O1
+
+AN_1_OBUF
+   LEDCONTROL_1/AN<2>.Y
+         0.335  AN<1>.O1
+
+AN_2_OBUF
+   LEDCONTROL_1/AN<2>.X
+         1.038  AN<2>.O1
+
+AN_3_OBUF
+   LEDCONTROL_1/AN<3>.X
+         0.336  AN<3>.O1
+
+CLKDIV262K_1/div_1024<0>
+   CLKDIV262K_1/div_1024<0>.YQ
+         0.668  CLKDIV262K_1/div_1024<15>.BY
+
+CLKDIV262K_1/div_1024<15>
+   CLKDIV262K_1/div_1024<15>.YQ
+         1.392  CLKDIV262K_1/div_32768<15>.CLK
+         1.413  CLKDIV262K_1/div_1024<0>.SR
+         2.102  CLKDIV262K_1/div_32768<0>.CLK
+
+CLKDIV262K_1/div_32768<0>
+   CLKDIV262K_1/div_32768<0>.YQ
+         0.668  CLKDIV262K_1/div_32768<15>.BY
+
+CLKDIV262K_1/div_32768<15>
+   CLKDIV262K_1/div_32768<15>.YQ
+         1.392  CLKDIV262K_1/temp_div_262144_31.CLK
+         2.102  CLKDIV262K_1/temp_div_262144<0>.CLK
+         1.414  CLKDIV262K_1/div_32768<0>.SR
+
+CLKDIV262K_1/div_32<0>
+   CLKDIV262K_1/div_32<0>.YQ
+         0.668  CLKDIV262K_1/div_32<15>.BY
+
+CLKDIV262K_1/div_32<15>
+   CLKDIV262K_1/div_32<15>.YQ
+         1.394  CLKDIV262K_1/div_1024<15>.CLK
+         1.394  CLKDIV262K_1/div_1024<0>.CLK
+         1.413  CLKDIV262K_1/div_32<0>.SR
+
+CLKDIV262K_1/temp_div_262144<0>
+   CLKDIV262K_1/temp_div_262144<0>.YQ
+         0.668  CLKDIV262K_1/temp_div_262144_31.BY
+
+CLKDIV262K_1/temp_div_262144<3>
+   CLKDIV262K_1/temp_div_262144_3_BUFG.O
+         1.050  STRTSTOP.ICLK1
+         1.011  STATEMACH_1/sreg_FFd1.CLK
+         1.011  STATEMACH_1/sreg_FFd3.CLK
+         1.011  STATEMACH_1/sreg_FFd2.CLK
+         1.012  hex2led_int2<1>.CLK
+         1.012  hex2led_int1<3>.CLK
+         1.012  hex2led_int2<3>.CLK
+         1.012  hex2led_int1<0>.CLK
+         1.011  hex2led_int2<0>.CLK
+         1.010  DEBOUNCE_1/int3.CLK
+         1.011  TIMECNT_1/SEC_MSB<2>.CLK
+         1.011  TIMECNT_1/SEC_LSB<3>.CLK
+         1.011  TIMECNT_1/MINUTES<3>.CLK
+         1.011  TIMECNT_1/SEC_MSB<0>.CLK
+         1.011  TIMECNT_1/SEC_LSB<0>.CLK
+         1.011  TIMECNT_1/MINUTES<0>.CLK
+
+CLKDIV262K_1/temp_div_262144_31
+   CLKDIV262K_1/temp_div_262144_31.YQ
+         2.420  CLKDIV262K_1/temp_div_262144_3_BUFG.I0
+         1.414  CLKDIV262K_1/temp_div_262144<0>.SR
+
+DCM1_1/CLK0_BUF
+   DCM1_1/DCM_INST.CLK0
+         0.827  DCM1_1/CLK0_BUFG_INST.I0
+
+DCM1_1/CLKFX_BUF
+   DCM1_1/DCM_INST.CLKFX
+         0.823  DCM1_1/CLKFX_BUFG_INST.I0
+
+DCM1_1/CLKIN_IBUFG_OUT
+   CLK.I
+         0.701  DCM1_1/DCM_INST.CLKIN
+
+DEBOUNCE_1/int1
+   STRTSTOP.IQ1
+         2.311  strtstop_debounced.F4
+         2.720  DEBOUNCE_1/int3.BY
+
+DEBOUNCE_1/int2
+   DEBOUNCE_1/int3.YQ
+         0.579  strtstop_debounced.F1
+         0.703  DEBOUNCE_1/int3.BX
+
+DEBOUNCE_1/int3
+   DEBOUNCE_1/int3.XQ
+         0.380  strtstop_debounced.F2
+
+LEDCONTROL_1/Mcount_cnt_cy<11>
+   LEDCONTROL_1/cnt<10>.COUT
+         0.000  LEDCONTROL_1/cnt<12>.CIN
+
+LEDCONTROL_1/Mcount_cnt_cy<13>
+   LEDCONTROL_1/cnt<12>.COUT
+         0.000  LEDCONTROL_1/cnt<14>.CIN
+
+LEDCONTROL_1/Mcount_cnt_cy<1>
+   LEDCONTROL_1/cnt<0>.COUT
+         0.000  LEDCONTROL_1/cnt<2>.CIN
+
+LEDCONTROL_1/Mcount_cnt_cy<3>
+   LEDCONTROL_1/cnt<2>.COUT
+         0.000  LEDCONTROL_1/cnt<4>.CIN
+
+LEDCONTROL_1/Mcount_cnt_cy<5>
+   LEDCONTROL_1/cnt<4>.COUT
+         0.000  LEDCONTROL_1/cnt<6>.CIN
+
+LEDCONTROL_1/Mcount_cnt_cy<7>
+   LEDCONTROL_1/cnt<6>.COUT
+         0.000  LEDCONTROL_1/cnt<8>.CIN
+
+LEDCONTROL_1/Mcount_cnt_cy<9>
+   LEDCONTROL_1/cnt<8>.COUT
+         0.000  LEDCONTROL_1/cnt<10>.CIN
+
+LEDCONTROL_1/_cmp_eq0000_map20
+   LEDCONTROL_1/_mux0001<7>.Y
+         1.006  LEDCONTROL_1/_mux0001<0>.F2
+         1.021  LEDCONTROL_1/_mux0001<0>.G2
+         0.581  LEDCONTROL_1/_mux0001<1>.F2
+         0.687  LEDCONTROL_1/_mux0001<1>.G2
+         0.654  LEDCONTROL_1/_mux0001<7>.F2
+         0.654  LEDCONTROL_1/_mux0001<3>.F2
+         1.304  LEDCONTROL_1/_mux0001<3>.G2
+         0.772  LEDCONTROL_1/_mux0001<4>.G2
+
+LEDCONTROL_1/_cmp_eq0000_map26
+   LEDCONTROL_1/_cmp_eq0000_map26.X
+         0.752  LEDCONTROL_1/_mux0001<0>.F1
+         0.773  LEDCONTROL_1/_mux0001<0>.G1
+         1.308  LEDCONTROL_1/_mux0001<1>.F1
+         1.323  LEDCONTROL_1/_mux0001<1>.G1
+         0.050  LEDCONTROL_1/_mux0001<7>.F1
+         0.399  LEDCONTROL_1/_mux0001<3>.F1
+         0.974  LEDCONTROL_1/_mux0001<3>.G1
+         0.871  LEDCONTROL_1/_mux0001<4>.G1
+
+LEDCONTROL_1/_mux0001<0>
+   LEDCONTROL_1/_mux0001<0>.X
+         2.000  SEG_DP.O1
+
+LEDCONTROL_1/_mux0001<1>
+   LEDCONTROL_1/_mux0001<1>.X
+         2.295  SEG_A.O1
+
+LEDCONTROL_1/_mux0001<2>
+   LEDCONTROL_1/_mux0001<3>.Y
+         2.450  SEG_B.O1
+
+LEDCONTROL_1/_mux0001<3>
+   LEDCONTROL_1/_mux0001<3>.X
+         1.376  SEG_C.O1
+
+LEDCONTROL_1/_mux0001<4>
+   LEDCONTROL_1/_mux0001<4>.Y
+         2.306  SEG_D.O1
+
+LEDCONTROL_1/_mux0001<5>
+   LEDCONTROL_1/_mux0001<0>.Y
+         1.395  SEG_E.O1
+
+LEDCONTROL_1/_mux0001<6>
+   LEDCONTROL_1/_mux0001<1>.Y
+         2.444  SEG_F.O1
+
+LEDCONTROL_1/_mux0001<7>
+   LEDCONTROL_1/_mux0001<7>.X
+         2.085  SEG_G.O1
+
+LEDCONTROL_1/cnt<0>
+   LEDCONTROL_1/cnt<0>.XQ
+         0.564  LEDCONTROL_1/cnt<0>.F1
+
+LEDCONTROL_1/cnt<10>
+   LEDCONTROL_1/cnt<10>.XQ
+         0.593  LEDCONTROL_1/cnt<10>.F1
+
+LEDCONTROL_1/cnt<11>
+   LEDCONTROL_1/cnt<10>.YQ
+         0.441  LEDCONTROL_1/cnt<10>.G1
+
+LEDCONTROL_1/cnt<12>
+   LEDCONTROL_1/cnt<12>.XQ
+         0.564  LEDCONTROL_1/cnt<12>.F1
+
+LEDCONTROL_1/cnt<13>
+   LEDCONTROL_1/cnt<12>.YQ
+         0.372  LEDCONTROL_1/cnt<12>.G1
+
+LEDCONTROL_1/cnt<14>
+   LEDCONTROL_1/cnt<14>.XQ
+         0.486  LEDCONTROL_1/cnt<14>.F1
+         1.642  LEDCONTROL_1/d1<1>.F3
+         1.663  LEDCONTROL_1/d1<1>.G3
+         0.486  LEDCONTROL_1/d0<0>.F3
+         0.553  LEDCONTROL_1/d0<0>.G3
+         1.180  LEDCONTROL_1/d1<2>.F3
+         1.247  LEDCONTROL_1/d1<2>.G3
+         1.991  LEDCONTROL_1/d1<3>.F3
+         2.012  LEDCONTROL_1/d1<3>.G3
+         1.259  LEDCONTROL_1/d1<4>.F3
+         1.326  LEDCONTROL_1/d1<4>.G3
+         1.612  LEDCONTROL_1/d1<5>.F3
+         1.633  LEDCONTROL_1/d1<5>.G3
+         1.644  LEDCONTROL_1/d1<6>.F3
+         1.665  LEDCONTROL_1/d1<6>.G3
+         1.997  LEDCONTROL_1/d1<7>.F3
+         2.022  LEDCONTROL_1/d1<7>.G3
+         0.486  LEDCONTROL_1/d1<0>.F3
+         0.553  LEDCONTROL_1/d1<0>.G3
+         1.836  LEDCONTROL_1/d0<1>.F3
+         1.783  LEDCONTROL_1/d0<1>.G3
+         1.334  LEDCONTROL_1/d0<2>.F3
+         1.440  LEDCONTROL_1/d0<2>.G3
+         1.754  LEDCONTROL_1/d0<3>.F3
+         1.860  LEDCONTROL_1/d0<3>.G3
+         1.413  LEDCONTROL_1/d0<4>.F3
+         1.519  LEDCONTROL_1/d0<4>.G3
+         1.612  LEDCONTROL_1/d0<5>.F3
+         1.633  LEDCONTROL_1/d0<5>.G3
+         1.838  LEDCONTROL_1/d0<6>.F3
+         1.785  LEDCONTROL_1/d0<6>.G3
+         2.224  LEDCONTROL_1/d0<7>.F3
+         2.239  LEDCONTROL_1/d0<7>.G3
+         3.245  LEDCONTROL_1/AN<3>.F2
+         3.336  LEDCONTROL_1/AN<3>.G1
+         3.114  LEDCONTROL_1/AN<2>.F1
+         3.129  LEDCONTROL_1/AN<2>.G2
+
+LEDCONTROL_1/cnt<15>
+   LEDCONTROL_1/cnt<14>.YQ
+         0.581  LEDCONTROL_1/cnt<14>.G1
+         1.806  LEDCONTROL_1/d1<1>.BX
+         0.722  LEDCONTROL_1/d0<0>.BX
+         1.901  LEDCONTROL_1/d1<2>.BX
+         1.505  LEDCONTROL_1/d1<3>.BX
+         1.459  LEDCONTROL_1/d1<4>.BX
+         1.506  LEDCONTROL_1/d1<5>.BX
+         1.806  LEDCONTROL_1/d1<6>.BX
+         2.240  LEDCONTROL_1/d1<7>.BX
+         0.722  LEDCONTROL_1/d1<0>.BX
+         2.244  LEDCONTROL_1/d0<1>.BX
+         1.450  LEDCONTROL_1/d0<2>.BX
+         1.505  LEDCONTROL_1/d0<3>.BX
+         1.840  LEDCONTROL_1/d0<4>.BX
+         1.506  LEDCONTROL_1/d0<5>.BX
+         2.235  LEDCONTROL_1/d0<6>.BX
+         2.187  LEDCONTROL_1/d0<7>.BX
+         2.340  LEDCONTROL_1/AN<3>.F1
+         2.446  LEDCONTROL_1/AN<3>.G2
+         2.772  LEDCONTROL_1/AN<2>.F2
+         2.878  LEDCONTROL_1/AN<2>.G1
+
+LEDCONTROL_1/cnt<1>
+   LEDCONTROL_1/cnt<0>.YQ
+         0.515  LEDCONTROL_1/cnt<0>.G1
+
+LEDCONTROL_1/cnt<2>
+   LEDCONTROL_1/cnt<2>.XQ
+         0.399  LEDCONTROL_1/cnt<2>.F1
+
+LEDCONTROL_1/cnt<3>
+   LEDCONTROL_1/cnt<2>.YQ
+         0.372  LEDCONTROL_1/cnt<2>.G1
+
+LEDCONTROL_1/cnt<4>
+   LEDCONTROL_1/cnt<4>.XQ
+         0.564  LEDCONTROL_1/cnt<4>.F1
+
+LEDCONTROL_1/cnt<5>
+   LEDCONTROL_1/cnt<4>.YQ
+         0.372  LEDCONTROL_1/cnt<4>.G1
+
+LEDCONTROL_1/cnt<6>
+   LEDCONTROL_1/cnt<6>.XQ
+         0.593  LEDCONTROL_1/cnt<6>.F1
+
+LEDCONTROL_1/cnt<7>
+   LEDCONTROL_1/cnt<6>.YQ
+         0.441  LEDCONTROL_1/cnt<6>.G1
+
+LEDCONTROL_1/cnt<8>
+   LEDCONTROL_1/cnt<8>.XQ
+         0.564  LEDCONTROL_1/cnt<8>.F1
+
+LEDCONTROL_1/cnt<9>
+   LEDCONTROL_1/cnt<8>.YQ
+         0.372  LEDCONTROL_1/cnt<8>.G1
+
+LEDCONTROL_1/d0<0>
+   LEDCONTROL_1/d0<0>.X
+         0.537  LEDCONTROL_1/_mux0001<0>.F3
+
+LEDCONTROL_1/d0<1>
+   LEDCONTROL_1/d0<1>.X
+         0.360  LEDCONTROL_1/_mux0001<1>.F3
+
+LEDCONTROL_1/d0<2>
+   LEDCONTROL_1/d0<2>.X
+         0.429  LEDCONTROL_1/_mux0001<3>.G3
+
+LEDCONTROL_1/d0<3>
+   LEDCONTROL_1/d0<3>.X
+         0.360  LEDCONTROL_1/_mux0001<3>.F3
+
+LEDCONTROL_1/d0<4>
+   LEDCONTROL_1/d0<4>.X
+         0.027  LEDCONTROL_1/_mux0001<4>.G3
+
+LEDCONTROL_1/d0<5>
+   LEDCONTROL_1/d0<5>.X
+         1.096  LEDCONTROL_1/_mux0001<0>.G3
+
+LEDCONTROL_1/d0<6>
+   LEDCONTROL_1/d0<6>.X
+         0.794  LEDCONTROL_1/_mux0001<1>.G3
+
+LEDCONTROL_1/d0<7>
+   LEDCONTROL_1/d0<7>.X
+         0.360  LEDCONTROL_1/_mux0001<7>.F3
+
+LEDCONTROL_1/d1<0>
+   LEDCONTROL_1/d1<0>.X
+         0.015  LEDCONTROL_1/_mux0001<0>.F4
+
+LEDCONTROL_1/d1<1>
+   LEDCONTROL_1/d1<1>.X
+         0.358  LEDCONTROL_1/_mux0001<1>.F4
+
+LEDCONTROL_1/d1<2>
+   LEDCONTROL_1/d1<2>.X
+         0.695  LEDCONTROL_1/_mux0001<3>.G4
+
+LEDCONTROL_1/d1<3>
+   LEDCONTROL_1/d1<3>.X
+         0.512  LEDCONTROL_1/_mux0001<3>.F4
+
+LEDCONTROL_1/d1<4>
+   LEDCONTROL_1/d1<4>.X
+         0.340  LEDCONTROL_1/_mux0001<4>.G4
+
+LEDCONTROL_1/d1<5>
+   LEDCONTROL_1/d1<5>.X
+         1.460  LEDCONTROL_1/_mux0001<0>.G4
+
+LEDCONTROL_1/d1<6>
+   LEDCONTROL_1/d1<6>.X
+         0.710  LEDCONTROL_1/_mux0001<1>.G4
+
+LEDCONTROL_1/d1<7>
+   LEDCONTROL_1/d1<7>.X
+         0.512  LEDCONTROL_1/_mux0001<7>.F4
+
+N10
+   N15.Y
+         1.014  LEDCONTROL_1/d1<2>.F1
+         0.820  LEDCONTROL_1/d0<2>.F2
+
+N11
+   N14.Y
+         1.947  LEDCONTROL_1/d1<3>.F1
+         1.363  LEDCONTROL_1/d0<3>.F2
+
+N12
+   N13.Y
+         0.934  LEDCONTROL_1/d1<4>.F1
+         0.740  LEDCONTROL_1/d0<4>.F2
+
+N13
+   N13.X
+         0.616  LEDCONTROL_1/d1<5>.F1
+         0.616  LEDCONTROL_1/d0<5>.F2
+
+N14
+   N14.X
+         0.402  LEDCONTROL_1/d1<6>.F1
+         0.594  LEDCONTROL_1/d0<6>.F2
+
+N15
+   N15.X
+         0.931  LEDCONTROL_1/d1<7>.F1
+         0.739  LEDCONTROL_1/d0<7>.F2
+
+N16
+   N22.Y
+         0.419  LEDCONTROL_1/d1<1>.G1
+         0.666  LEDCONTROL_1/d0<1>.G2
+
+N17
+   N21.Y
+         0.728  LEDCONTROL_1/d1<2>.G1
+         0.945  LEDCONTROL_1/d0<2>.G2
+
+N18
+   N20.Y
+         0.601  LEDCONTROL_1/d1<3>.G1
+         0.589  LEDCONTROL_1/d0<3>.G2
+
+N19
+   N19.Y
+         0.469  LEDCONTROL_1/d1<4>.G1
+         0.349  LEDCONTROL_1/d0<4>.G2
+
+N2
+   N8.Y
+         1.026  LEDCONTROL_1/d0<1>.F1
+
+N20
+   N20.X
+         0.093  LEDCONTROL_1/d1<5>.G1
+         0.093  LEDCONTROL_1/d0<5>.G2
+
+N21
+   N21.X
+         0.276  LEDCONTROL_1/d1<6>.G1
+         0.673  LEDCONTROL_1/d0<6>.G2
+
+N22
+   N22.X
+         0.340  LEDCONTROL_1/d1<7>.G1
+         0.093  LEDCONTROL_1/d0<7>.G2
+
+N23
+   N29.Y
+         0.531  LEDCONTROL_1/d1<1>.G2
+         0.039  LEDCONTROL_1/_mux0001<7>.G3
+
+N24
+   N28.Y
+         0.665  LEDCONTROL_1/d1<2>.G2
+         0.256  LEDCONTROL_1/_mux0001<7>.G2
+
+N25
+   N27.Y
+         0.256  LEDCONTROL_1/d1<3>.G2
+         0.418  LEDCONTROL_1/_mux0001<7>.G1
+
+N26
+   N26.Y
+         0.661  LEDCONTROL_1/d1<4>.G2
+         0.573  LEDCONTROL_1/_cmp_eq0000_map26.F4
+
+N27
+   N27.X
+         0.626  LEDCONTROL_1/d1<5>.G2
+         0.373  LEDCONTROL_1/_cmp_eq0000_map26.F3
+
+N28
+   N28.X
+         0.431  LEDCONTROL_1/d1<6>.G2
+         0.219  LEDCONTROL_1/_cmp_eq0000_map26.F1
+
+N29
+   N29.X
+         0.504  LEDCONTROL_1/d1<7>.G2
+         0.044  LEDCONTROL_1/_cmp_eq0000_map26.F2
+
+N3
+   N7.Y
+         0.915  LEDCONTROL_1/d0<2>.F1
+
+N30
+   N36.Y
+         0.932  LEDCONTROL_1/d1<1>.F2
+         0.755  LEDCONTROL_1/d0<1>.G1
+
+N31
+   N35.Y
+         0.927  LEDCONTROL_1/d1<2>.F2
+         0.826  LEDCONTROL_1/d0<2>.G1
+
+N32
+   N34.Y
+         0.539  LEDCONTROL_1/d1<3>.F2
+         0.709  LEDCONTROL_1/d0<3>.G1
+
+N33
+   N33.Y
+         0.690  LEDCONTROL_1/d1<4>.F2
+         0.932  LEDCONTROL_1/d0<4>.G1
+
+N34
+   N34.X
+         0.512  LEDCONTROL_1/d1<5>.F2
+         0.618  LEDCONTROL_1/d0<5>.G1
+
+N35
+   N35.X
+         0.512  LEDCONTROL_1/d1<6>.F2
+         0.425  LEDCONTROL_1/d0<6>.G1
+
+N36
+   N36.X
+         0.552  LEDCONTROL_1/d1<7>.F2
+         0.379  LEDCONTROL_1/d0<7>.G1
+
+N4
+   N6.Y
+         0.917  LEDCONTROL_1/d0<3>.F1
+
+N5
+   N5.Y
+         1.070  LEDCONTROL_1/d0<4>.F1
+
+N6
+   N6.X
+         0.704  LEDCONTROL_1/d0<5>.F1
+
+N7
+   N7.X
+         0.360  LEDCONTROL_1/d0<6>.F1
+
+N8
+   N8.X
+         0.169  LEDCONTROL_1/d0<7>.F1
+
+N9
+   ten_cnt_thresh2.Y
+         0.855  LEDCONTROL_1/d1<1>.F1
+         0.701  LEDCONTROL_1/d0<1>.F2
+
+RESET_IBUF
+   RESET.I
+         4.766  DCM1_1/DCM_INST.RST
+         2.000  STATEMACH_1/sreg_FFd1.SR
+         2.000  STATEMACH_1/sreg_FFd3.SR
+         2.674  STATEMACH_1/sreg_FFd2.SR
+
+STATEMACH_1/sreg_FFd1
+   STATEMACH_1/sreg_FFd1.XQ
+         0.602  STATEMACH_1/sreg_FFd1.F4
+         0.708  STATEMACH_1/sreg_FFd1.G3
+         0.602  STATEMACH_1/sreg_FFd3.F3
+         0.708  STATEMACH_1/sreg_FFd3.G1
+         0.515  STATEMACH_1/sreg_FFd2.G2
+         0.448  clk_en_int.F2
+         0.515  clk_en_int.G3
+
+STATEMACH_1/sreg_FFd2
+   STATEMACH_1/sreg_FFd2.XQ
+         0.672  STATEMACH_1/sreg_FFd1.F2
+         0.687  STATEMACH_1/sreg_FFd1.G2
+         0.672  STATEMACH_1/sreg_FFd3.F4
+         0.687  STATEMACH_1/sreg_FFd3.G2
+         0.445  STATEMACH_1/sreg_FFd2.F1
+         0.470  STATEMACH_1/sreg_FFd2.G4
+         0.445  clk_en_int.F3
+         0.470  clk_en_int.G2
+
+STATEMACH_1/sreg_FFd3
+   STATEMACH_1/sreg_FFd3.XQ
+         0.421  STATEMACH_1/sreg_FFd1.F1
+         0.512  STATEMACH_1/sreg_FFd1.G1
+         0.421  STATEMACH_1/sreg_FFd3.F2
+         0.512  STATEMACH_1/sreg_FFd3.G3
+         0.759  STATEMACH_1/sreg_FFd2.G1
+         0.613  clk_en_int.F1
+         0.759  clk_en_int.G1
+
+STRTSTOP_IBUF
+   STRTSTOP.I
+         0.922  strtstop_debounced.F3
+
+TIMECNT_1/_and0000
+   TIMECNT_1/_and0000.X
+         0.828  TIMECNT_1/SEC_MSB<2>.CE
+         0.369  TIMECNT_1/SEC_MSB<2>.F4
+         0.828  TIMECNT_1/SEC_MSB<0>.CE
+
+TIMECNT_1/_and0001
+   TIMECNT_1/SEC_MSB<2>.X
+         1.038  TIMECNT_1/MINUTES<3>.CE
+         1.064  TIMECNT_1/MINUTES<0>.CE
+
+clk_262144k
+   DCM1_1/CLKFX_BUFG_INST.O
+         1.010  CLKDIV262K_1/div_32<15>.CLK
+         1.010  CLKDIV262K_1/div_32<0>.CLK
+
+clk_en_int
+   clk_en_int.X
+         0.859  hex2led_int2<1>.CE
+         0.914  hex2led_int2<1>.F1
+         0.861  hex2led_int2<1>.G1
+         0.851  hex2led_int1<3>.CE
+         0.876  hex2led_int1<3>.F1
+         0.982  hex2led_int1<3>.G1
+         0.859  hex2led_int2<3>.CE
+         0.731  hex2led_int2<3>.F1
+         1.226  hex2led_int2<3>.G1
+         0.851  hex2led_int1<0>.CE
+         0.876  hex2led_int1<0>.F1
+         1.614  time_cnt_ce.F2
+         1.090  hex2led_int2<0>.CE
+         1.318  hex2led_int2<0>.F1
+
+clk_int
+   DCM1_1/CLK0_BUFG_INST.O
+         1.217  DCM1_1/DCM_INST.CLKFB
+         1.011  LEDCONTROL_1/cnt<0>.CLK
+         1.011  LEDCONTROL_1/cnt<2>.CLK
+         1.011  LEDCONTROL_1/cnt<4>.CLK
+         1.011  LEDCONTROL_1/cnt<6>.CLK
+         1.011  LEDCONTROL_1/cnt<8>.CLK
+         1.011  LEDCONTROL_1/cnt<10>.CLK
+         1.011  LEDCONTROL_1/cnt<12>.CLK
+         1.011  LEDCONTROL_1/cnt<14>.CLK
+         1.051  SEG_DP.OTCLK1
+         1.050  SEG_A.OTCLK1
+         1.051  SEG_B.OTCLK1
+         1.051  SEG_C.OTCLK1
+         1.051  SEG_D.OTCLK1
+         1.051  SEG_E.OTCLK1
+         1.051  SEG_F.OTCLK1
+         1.051  SEG_G.OTCLK1
+
+hex2led_int1<0>
+   hex2led_int1<0>.XQ
+         0.602  ten_cnt1/BU2/U0/q_next<0>.F1
+         0.501  hex2led_int1<0>.G3
+         0.875  time_cnt_ce.G4
+         1.355  N8.F1
+         1.370  N8.G1
+         1.110  N7.F3
+         1.135  N7.G1
+         0.627  N6.F3
+         0.642  N6.G4
+         0.425  N5.G1
+
+hex2led_int1<1>
+   hex2led_int2<1>.YQ
+         0.729  ten_cnt1/BU2/U0/q_next<0>.G1
+         0.666  hex2led_int1<0>.G2
+         0.551  time_cnt_ce.G2
+         1.426  N8.F2
+         1.447  N8.G2
+         1.628  N7.F1
+         1.575  N7.G2
+         2.023  N6.F1
+         2.129  N6.G3
+         1.936  N5.G2
+
+hex2led_int1<2>
+   hex2led_int1<3>.YQ
+         0.488  ten_cnt1/BU2/U0/q_next<2>.F1
+         0.489  hex2led_int1<0>.G1
+         1.169  time_cnt_ce.G3
+         1.679  N8.F3
+         1.785  N8.G3
+         0.826  N7.F4
+         0.893  N7.G4
+         1.526  N6.F2
+         1.617  N6.G1
+         1.864  N5.G3
+
+hex2led_int1<3>
+   hex2led_int1<3>.XQ
+         0.487  ten_cnt1/BU2/U0/q_next<2>.G1
+         0.680  hex2led_int1<0>.G4
+         1.445  time_cnt_ce.G1
+         1.137  N8.F4
+         1.228  N8.G4
+         1.320  N7.F2
+         1.466  N7.G3
+         0.445  N6.F4
+         0.466  N6.G2
+         0.586  N5.G4
+
+hex2led_int2<0>
+   hex2led_int2<0>.XQ
+         0.485  ten_cnt2/BU2/U0/q_next<0>.F1
+         0.509  ten_cnt_thresh2.F4
+         0.576  ten_cnt_thresh2.G1
+         0.509  N15.F1
+         0.576  N15.G1
+         0.670  N14.F3
+         0.816  N14.G4
+         1.019  N13.F3
+         1.165  N13.G1
+         0.769  hex2led_int2<0>.G3
+
+hex2led_int2<1>
+   hex2led_int2<1>.XQ
+         0.454  ten_cnt2/BU2/U0/q_next<0>.G1
+         0.658  ten_cnt_thresh2.F2
+         0.804  ten_cnt_thresh2.G2
+         0.658  N15.F2
+         0.804  N15.G2
+         0.833  N14.F1
+         0.858  N14.G3
+         1.175  N13.F1
+         1.200  N13.G2
+         0.557  hex2led_int2<0>.G2
+
+hex2led_int2<2>
+   hex2led_int2<3>.YQ
+         0.598  ten_cnt2/BU2/U0/q_next<2>.F1
+         0.710  ten_cnt_thresh2.F3
+         0.657  ten_cnt_thresh2.G3
+         0.710  N15.F3
+         0.657  N15.G4
+         0.644  N14.F4
+         0.591  N14.G1
+         1.344  N13.F2
+         1.291  N13.G3
+         0.537  hex2led_int2<0>.G1
+
+hex2led_int2<3>
+   hex2led_int2<3>.XQ
+         0.702  ten_cnt2/BU2/U0/q_next<2>.G1
+         0.460  ten_cnt_thresh2.F1
+         0.485  ten_cnt_thresh2.G4
+         0.460  N15.F4
+         0.485  N15.G3
+         1.080  N14.F2
+         1.147  N14.G2
+         1.416  N13.F4
+         1.483  N13.G4
+         0.702  hex2led_int2<0>.G4
+
+hex2led_int3<0>
+   TIMECNT_1/SEC_LSB<0>.XQ
+         1.210  N36.F1
+         1.231  N36.G1
+         1.914  N35.F3
+         1.939  N35.G1
+         1.792  N34.F3
+         1.807  N34.G4
+         1.807  N33.G1
+         1.464  TIMECNT_1/_and0000.F1
+         1.888  TIMECNT_1/SEC_LSB<3>.F4
+         1.706  TIMECNT_1/SEC_LSB<3>.G3
+         0.711  TIMECNT_1/SEC_LSB<0>.BX
+         1.909  TIMECNT_1/SEC_LSB<0>.G1
+
+hex2led_int3<1>
+   TIMECNT_1/SEC_LSB<0>.YQ
+         1.293  N36.F2
+         1.399  N36.G2
+         0.974  N35.F1
+         0.921  N35.G2
+         1.301  N34.F1
+         1.407  N34.G3
+         1.375  N33.G2
+         0.450  TIMECNT_1/_and0000.F4
+         0.604  TIMECNT_1/SEC_LSB<3>.F3
+         0.710  TIMECNT_1/SEC_LSB<3>.G2
+         0.710  TIMECNT_1/SEC_LSB<0>.G2
+
+hex2led_int3<2>
+   TIMECNT_1/SEC_LSB<3>.YQ
+         1.123  N36.F3
+         1.214  N36.G3
+         1.303  N35.F4
+         1.449  N35.G4
+         1.460  N34.F2
+         1.551  N34.G1
+         1.219  N33.G3
+         0.952  TIMECNT_1/_and0000.F3
+         0.760  TIMECNT_1/SEC_LSB<3>.F1
+         0.851  TIMECNT_1/SEC_LSB<3>.G1
+         0.851  TIMECNT_1/SEC_LSB<0>.G3
+
+hex2led_int3<3>
+   TIMECNT_1/SEC_LSB<3>.XQ
+         1.760  N36.F4
+         1.775  N36.G4
+         0.831  N35.F2
+         0.898  N35.G3
+         2.554  N34.F4
+         2.575  N34.G2
+         2.575  N33.G4
+         0.729  TIMECNT_1/_and0000.BX
+         0.672  TIMECNT_1/SEC_LSB<3>.F2
+         0.687  TIMECNT_1/SEC_LSB<0>.G4
+
+hex2led_int4<0>
+   TIMECNT_1/SEC_MSB<0>.XQ
+         0.674  N22.F1
+         0.621  N22.G1
+         0.725  N21.F3
+         0.740  N21.G1
+         1.374  N20.F3
+         1.321  N20.G4
+         1.321  N19.G1
+         0.725  TIMECNT_1/SEC_MSB<2>.F2
+         0.471  TIMECNT_1/SEC_MSB<2>.G1
+         0.743  TIMECNT_1/SEC_MSB<0>.BX
+         0.471  TIMECNT_1/SEC_MSB<0>.G2
+
+hex2led_int4<1>
+   TIMECNT_1/SEC_MSB<0>.YQ
+         1.761  N22.F2
+         1.786  N22.G2
+         2.154  N21.F1
+         2.245  N21.G2
+         1.750  N20.F1
+         1.775  N20.G3
+         1.775  N19.G2
+         2.155  TIMECNT_1/SEC_MSB<2>.F1
+         2.246  TIMECNT_1/SEC_MSB<2>.G3
+         2.246  TIMECNT_1/SEC_MSB<0>.G1
+
+hex2led_int4<2>
+   TIMECNT_1/SEC_MSB<2>.YQ
+         1.118  N22.F3
+         1.185  N22.G3
+         0.422  N21.F4
+         0.443  N21.G4
+         1.455  N20.F2
+         1.522  N20.G1
+         1.190  N19.G3
+         0.592  TIMECNT_1/SEC_MSB<2>.F3
+         0.698  TIMECNT_1/SEC_MSB<2>.G2
+         0.698  TIMECNT_1/SEC_MSB<0>.G3
+
+hex2led_int5<0>
+   TIMECNT_1/MINUTES<0>.XQ
+         0.692  N29.F1
+         0.798  N29.G1
+         0.538  N28.F3
+         0.605  N28.G1
+         0.842  N27.F3
+         0.909  N27.G4
+         0.939  N26.G1
+         0.647  TIMECNT_1/MINUTES<3>.F4
+         0.753  TIMECNT_1/MINUTES<3>.G3
+         0.758  TIMECNT_1/MINUTES<0>.BX
+         0.560  TIMECNT_1/MINUTES<0>.G1
+
+hex2led_int5<1>
+   TIMECNT_1/MINUTES<0>.YQ
+         0.656  N29.F2
+         0.671  N29.G2
+         0.429  N28.F1
+         0.454  N28.G2
+         0.727  N27.F1
+         0.752  N27.G3
+         1.786  N26.G2
+         0.959  TIMECNT_1/MINUTES<3>.F3
+         0.974  TIMECNT_1/MINUTES<3>.G2
+         0.757  TIMECNT_1/MINUTES<0>.G2
+
+hex2led_int5<2>
+   TIMECNT_1/MINUTES<3>.YQ
+         0.458  N29.F3
+         0.479  N29.G3
+         0.652  N28.F4
+         0.599  N28.G4
+         0.994  N27.F2
+         0.941  N27.G1
+         0.941  N26.G3
+         0.422  TIMECNT_1/MINUTES<3>.F1
+         0.443  TIMECNT_1/MINUTES<3>.G1
+         0.563  TIMECNT_1/MINUTES<0>.G3
+
+hex2led_int5<3>
+   TIMECNT_1/MINUTES<3>.XQ
+         0.458  N29.F4
+         0.549  N29.G4
+         0.650  N28.F2
+         0.796  N28.G3
+         1.010  N27.F4
+         1.156  N27.G2
+         1.481  N26.G4
+         0.797  TIMECNT_1/MINUTES<3>.F2
+         1.135  TIMECNT_1/MINUTES<0>.G4
+
+locked
+   DCM1_1/DCM_INST.LOCKED
+         2.506  STATEMACH_1/sreg_FFd1.F3
+         2.527  STATEMACH_1/sreg_FFd1.G4
+         3.484  STATEMACH_1/sreg_FFd3.BX
+         2.647  STATEMACH_1/sreg_FFd2.G3
+
+rst_int
+   clk_en_int.Y
+         0.941  hex2led_int2<1>.SR
+         0.897  hex2led_int1<3>.SR
+         0.941  hex2led_int2<3>.SR
+         0.897  hex2led_int1<0>.SR
+         1.282  hex2led_int2<0>.SR
+         1.266  TIMECNT_1/SEC_MSB<2>.SR
+         1.597  TIMECNT_1/SEC_LSB<3>.SR
+         1.607  TIMECNT_1/MINUTES<3>.SR
+         1.266  TIMECNT_1/SEC_MSB<0>.SR
+         1.597  TIMECNT_1/SEC_LSB<0>.SR
+         1.427  TIMECNT_1/MINUTES<0>.SR
+
+strtstop_debounced
+   strtstop_debounced.X
+         1.346  STATEMACH_1/sreg_FFd1.BX
+         1.565  STATEMACH_1/sreg_FFd3.F1
+         1.008  STATEMACH_1/sreg_FFd2.BX
+
+ten_cnt1/BU2/U0/_not0002
+   hex2led_int1<0>.Y
+         0.421  hex2led_int2<1>.G2
+         0.041  hex2led_int1<3>.F2
+         0.062  hex2led_int1<3>.G2
+         0.041  hex2led_int1<0>.F2
+
+ten_cnt1/BU2/U0/q_next<0>
+   ten_cnt1/BU2/U0/q_next<0>.X
+         0.923  hex2led_int1<0>.F3
+
+ten_cnt1/BU2/U0/q_next<1>
+   ten_cnt1/BU2/U0/q_next<0>.Y
+         0.314  hex2led_int2<1>.G3
+
+ten_cnt1/BU2/U0/q_next<2>
+   ten_cnt1/BU2/U0/q_next<2>.X
+         0.093  hex2led_int1<3>.G3
+
+ten_cnt1/BU2/U0/q_next<3>
+   ten_cnt1/BU2/U0/q_next<2>.Y
+         0.242  hex2led_int1<3>.F3
+
+ten_cnt1/BU2/U0/the_addsub/no_pipelining.the_addsub/carry_simple<1>
+   ten_cnt1/BU2/U0/q_next<0>.COUT
+         0.000  ten_cnt1/BU2/U0/q_next<2>.CIN
+
+ten_cnt2/BU2/U0/_not0002
+   hex2led_int2<0>.Y
+         0.471  hex2led_int2<1>.F2
+         0.471  hex2led_int2<3>.F2
+         0.548  hex2led_int2<3>.G2
+         0.056  hex2led_int2<0>.F2
+
+ten_cnt2/BU2/U0/q_next<0>
+   ten_cnt2/BU2/U0/q_next<0>.X
+         0.512  hex2led_int2<0>.F3
+
+ten_cnt2/BU2/U0/q_next<1>
+   ten_cnt2/BU2/U0/q_next<0>.Y
+         0.207  hex2led_int2<1>.F3
+
+ten_cnt2/BU2/U0/q_next<2>
+   ten_cnt2/BU2/U0/q_next<2>.X
+         0.069  hex2led_int2<3>.G3
+
+ten_cnt2/BU2/U0/q_next<3>
+   ten_cnt2/BU2/U0/q_next<2>.Y
+         0.209  hex2led_int2<3>.F3
+
+ten_cnt2/BU2/U0/the_addsub/no_pipelining.the_addsub/carry_simple<1>
+   ten_cnt2/BU2/U0/q_next<0>.COUT
+         0.000  ten_cnt2/BU2/U0/q_next<2>.CIN
+
+ten_cnt_thresh1
+   time_cnt_ce.Y
+         0.015  time_cnt_ce.F3
+
+ten_cnt_thresh2
+   ten_cnt_thresh2.X
+         0.398  time_cnt_ce.F1
+
+time_cnt_ce
+   time_cnt_ce.X
+         0.584  TIMECNT_1/_and0000.F2
+         0.738  TIMECNT_1/SEC_LSB<3>.CE
+         0.738  TIMECNT_1/SEC_LSB<0>.CE
+

@@ -1,0 +1,47 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do Display_tb.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity display
+# -- Compiling architecture behavioral of display
+# Model Technology ModelSim XE III vcom 6.1e Compiler 2006.03 Mar  8 2006
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity display_tb
+# -- Compiling architecture behavior of display_tb
+# ** Warning: [4] display_tb.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps Display_tb 
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.numeric_std(body)
+# Loading work.display_tb(behavior)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.vcomponents
+# Loading work.display(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+quit -sim
+vsim -lib work -t 1ps work.display_tb
+# vsim -lib work -t 1ps work.display_tb 
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.numeric_std(body)
+# Loading work.display_tb(behavior)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/vhdl/unisim.vcomponents
+# Loading work.display(behavioral)
+restart
+run
+run -continue
+run -all
+# Break key hit 
+# Simulation stop requested.

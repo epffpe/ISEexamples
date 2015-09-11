@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 289: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1200: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 452: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 483: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 606: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 614: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 381: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 423: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 525: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 597: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 682: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1109: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1136: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1220: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1269: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_rx.vhd&quot; line 254: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/bbfifo_16x8.vhd&quot; line 257: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_tx.vhd&quot; line 270: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_tx.vhd&quot; line 318: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 332: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 371: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 403: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 413: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 432: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 442: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 468: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 493: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 554: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 587: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 794: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 871: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 886: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 937: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 956: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1244: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1301: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1311: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1327: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1415: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1448: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_rx.vhd&quot; line 236: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/bbfifo_16x8.vhd&quot; line 158: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/bbfifo_16x8.vhd&quot; line 239: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_tx.vhd&quot; line 133: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_tx.vhd&quot; line 281: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_tx.vhd&quot; line 300: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_tx.vhd&quot; line 354: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 828: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 1368: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcpsm3.vhd&quot; line 906: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_00&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_01&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_02&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_03&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_04&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_05&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_06&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_07&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_08&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_09&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_0A&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_0B&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_0C&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_0D&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_0E&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_0F&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_10&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_11&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_12&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_13&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_14&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_15&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_16&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_17&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_18&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_19&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_1A&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_1B&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_1C&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_1D&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_1E&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_1F&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_20&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_21&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_22&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_23&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_24&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_25&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_26&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_27&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_28&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_29&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_2A&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_2B&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_2C&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_2D&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_2E&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_2F&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_30&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_31&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_32&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_33&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_34&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_35&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_36&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_37&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_38&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_39&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_3A&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_3B&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_3C&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_3D&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_3E&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INIT_3F&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_00&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_01&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_02&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_03&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_04&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_05&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_06&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Assambler/PROG_ROM.VHD&quot; line 182: attribute on instance &lt;INITP_07&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" ><arg fmt="%s" index="1">&quot;C:/Xilinx/ISEexamples/modulo3/PicoBlaze/kcuart_rx.vhd&quot; line 141: attribute on instance &lt;INIT&gt; overrides generic/parameter on component. It is possible that simulator will not take this attribute into account.
+</arg></msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">sync_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stop_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[0].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[1].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[2].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[3].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[4].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[5].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[6].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">data_loop[7].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">start_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">edge_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">purge_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[0].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[1].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[2].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[3].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[4].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[5].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[6].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[7].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">valid_loop[8].data_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">strobe_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">count_width_loop[0].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">count_width_loop[1].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">count_width_loop[2].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">count_width_loop[3].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">dp_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pipeline_serial</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">count_width_loop[0].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">count_width_loop[1].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">count_width_loop[2].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">Tx_start_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">Tx_run_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">hot_state_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">Tx_bit_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">Tx_stop_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">Tx_complete_reg</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">toggle_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">reset_flop1</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">reset_flop2</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">int_capture_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">int_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">ack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shadow_carry_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shadow_zero_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">int_enable_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">flag_write_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">zero_flag_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">carry_flag_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[0].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[1].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[2].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[3].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[4].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[5].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[6].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[7].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[8].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pc_loop[9].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">register_write_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">memory_write_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[0].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[1].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[2].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[3].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[4].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[5].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[6].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">store_loop[7].store_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[0].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[1].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[2].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[3].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[4].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[5].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[6].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">logical_loop[7].logical_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">pipeline_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[0].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[1].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[2].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[3].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[4].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[5].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[6].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">shift_loop[7].shift_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[0].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[1].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[2].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[3].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[4].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[5].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[6].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1961" delta="unknown" >The length of the hex value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[7].msb_arith.arith_carry_out_lut</arg> should be <arg fmt="%d" index="3">2</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[7].msb_arith.arith_carry_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">arith_loop[7].arith_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">sel_group_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">write_strobe_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">read_strobe_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[0].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[1].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[2].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[3].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[4].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[5].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[6].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[7].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[8].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_ram_loop[9].stack_flop</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_count_loop[0].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_count_loop[1].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_count_loop[2].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_count_loop[3].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1963" delta="unknown" >The length of the binary value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">stack_count_loop[4].register_bit</arg> should be <arg fmt="%d" index="3">1</arg> bits long. The current value set is <arg fmt="%d" index="4">4</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1961" delta="unknown" >The length of the hex value for the attribute <arg fmt="%s" index="1">INIT</arg> on instance <arg fmt="%s" index="2">ram_1024_x_18</arg> should be <arg fmt="%d" index="3">18</arg> bits long. The current value set is <arg fmt="%d" index="4">20</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="warning" file="Xst" num="1961" delta="unknown" >The length of the hex value for the attribute <arg fmt="%s" index="1">SRVAL</arg> on instance <arg fmt="%s" index="2">ram_1024_x_18</arg> should be <arg fmt="%d" index="3">18</arg> bits long. The current value set is <arg fmt="%d" index="4">20</arg> bits long.  Value has been truncated
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/ISEexamples/modulo3/PicoBlaze/Display.vhd</arg>&quot; line <arg fmt="%d" index="2">263</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">port_id&lt;7:2&gt;</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Port_id&lt;7:2&gt;</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Port_id&lt;7:2&gt;</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">dp</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">interrupt_ack</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">interrupt</arg>&gt; is used but never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">status_port</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">serial_out</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">serial_in</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">status_port_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Outputs_Ports</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">status_port_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Outputs_Ports</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">seg_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">seg_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">Inst_Outputs_Ports/status_port_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">supersonic</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">Inst_Outputs_Ports/status_port_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">supersonic</arg>&gt;.
+</msg>
+
+</messages>

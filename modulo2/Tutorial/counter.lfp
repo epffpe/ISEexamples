@@ -1,0 +1,5 @@
+# begin LFP file C:\Xilinx\ISEexamples\modulo2\Tutorial\counter.lfp
+designfile counter.vhd
+parttype xc3s200-4-ft256
+bus_delimiter -1;
+set_busdelim_onsave 1;

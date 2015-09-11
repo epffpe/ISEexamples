@@ -1,0 +1,114 @@
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+xst -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+xst -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+xst -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+xst -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr
+ngdbuild -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -dd _ngo -nt timestamp -uc "supersonic.ucf" -p xc3s1000-ft256-4 "supersonic.ngc" supersonic.ngd
+map -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -p xc3s1000-ft256-4 -cm area -pr b -k 4 -c 100 -o supersonic_map.ncd supersonic.ngd supersonic.pcf
+par -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -w -intstyle ise -ol std -t 1 supersonic_map.ncd supersonic.ncd supersonic.pcf
+trce -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -e 3 -l 3 -s 4 -xml supersonic supersonic.ncd -o supersonic.twr supersonic.pcf -ucf supersonic.ucf
+bitgen -ise "C:/Documents and Settings/dcse0647/Escritorio/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -f supersonic.ut supersonic.ncd
+xst -ise "C:/Xilinx/ISEexamples/BORRAR/BORRAR/BORRAR.ise" -intstyle ise -ifn supersonic.xst -ofn supersonic.syr

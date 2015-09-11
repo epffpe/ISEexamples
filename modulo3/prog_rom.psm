@@ -1,0 +1,5 @@
+				CONSTANT Port_A, 00
+		cold_start: LOAD s0, 00
+				INPUT s0, 00
+				OUTPUT s0, Port_A
+				JUMP cold_start

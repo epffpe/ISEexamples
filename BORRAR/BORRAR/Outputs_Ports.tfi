@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+Outputs_Ports instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .Out_Port(Out_Port), 
+    .Port_id(Port_id), 
+    .Write_strobe(Write_strobe), 
+    .Led(Led), 
+    .write_buffer(write_buffer), 
+    .data_in(data_in)
+    );
+
+
